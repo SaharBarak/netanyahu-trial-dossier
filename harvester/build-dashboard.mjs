@@ -284,6 +284,22 @@ const page = (manifest) => {
   footer{padding:34px 0 60px;color:var(--mut);font-size:13px}
   .pill{display:inline-block;font-family:var(--mono);font-size:11px;color:var(--mut);
     border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin:0 6px 6px 0}
+  /* poll */
+  .poll h3{font-size:16px}
+  .poll-btns{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px}
+  .poll-btns button{flex:1 1 180px;background:var(--panel2);color:var(--ink);border:1px solid var(--line);
+    border-radius:10px;padding:14px 16px;font-size:14px;font-weight:600;cursor:pointer;transition:.15s}
+  .poll-btns button:hover{border-color:var(--accent);background:#222b36}
+  .poll-btns button.picked{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+  .poll-results{margin-top:8px}
+  .pr-row{display:grid;grid-template-columns:130px 1fr 48px;gap:10px;align-items:center;margin:9px 0}
+  .pr-l{font-size:13px;color:#cdd6df}
+  .pr-track{height:12px;background:var(--panel2);border-radius:7px;overflow:hidden}
+  .pr-fill{height:100%;width:0;background:var(--accent);transition:width .4s ease}
+  .pr-n{font-family:var(--mono);font-size:13px;color:var(--mut);text-align:right}
+  .poll-total{margin:14px 0 0;color:var(--mut);font-size:13px}
+  .linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;font-size:13px;padding:0}
+  .linkbtn:hover{text-decoration:underline}
 </style>
 </head>
 <body>
@@ -355,6 +371,28 @@ const page = (manifest) => {
   <ul class="tl">${timelineRows(rows)}</ul>
 </div></section>
 
+<section id="poll"><div class="wrap">
+  <h2>Your read — opinion poll</h2>
+  <div class="panel poll">
+    <h3>Based on this analysis, what's your read on the charges?</h3>
+    <p class="sub" style="margin:0 0 16px">An <b>opinion</b> poll — not a verdict, not a legal determination.
+    Netanyahu is presumed innocent and the three-judge panel has not ruled. Votes are stored
+    <b>in your own browser</b> (this is a static site with no shared server), so the tally reflects
+    this device only.</p>
+    <div class="poll-btns" id="pollBtns">
+      <button data-vote="guilty">Leans guilty</button>
+      <button data-vote="not_guilty">Leans not guilty</button>
+      <button data-vote="too_close">Too close to call</button>
+    </div>
+    <div class="poll-results" id="pollResults" hidden>
+      <div class="pr-row"><span class="pr-l">Leans guilty</span><div class="pr-track"><div class="pr-fill" data-k="guilty"></div></div><span class="pr-n" data-n="guilty">0%</span></div>
+      <div class="pr-row"><span class="pr-l">Leans not guilty</span><div class="pr-track"><div class="pr-fill" data-k="not_guilty"></div></div><span class="pr-n" data-n="not_guilty">0%</span></div>
+      <div class="pr-row"><span class="pr-l">Too close to call</span><div class="pr-track"><div class="pr-fill" data-k="too_close"></div></div><span class="pr-n" data-n="too_close">0%</span></div>
+      <p class="poll-total">Total votes on this device: <b id="pollTotal">0</b> · <button id="pollReset" class="linkbtn">reset / change vote</button></p>
+    </div>
+  </div>
+</div></section>
+
 <section><div class="wrap">
   <h2>Methodology &amp; limitations</h2>
   <ul class="plain">
@@ -371,6 +409,52 @@ const page = (manifest) => {
   Repo: <a href="https://github.com/SaharBarak/netanyahu-trial-dossier">SaharBarak/netanyahu-trial-dossier</a> ·
   Full dossier in <code>/docs</code>. Analytical research aid — not legal advice, not a verdict.
 </div></footer>
+
+<script>
+(function(){
+  var KEYS=["guilty","not_guilty","too_close"];
+  var LS_TALLY="ntd_poll_tally_v1", LS_VOTE="ntd_poll_myvote_v1";
+  var btns=document.getElementById("pollBtns");
+  var results=document.getElementById("pollResults");
+  var totalEl=document.getElementById("pollTotal");
+  var reset=document.getElementById("pollReset");
+  function read(k,def){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):def; }catch(e){ return def; } }
+  function write(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} }
+  function tally(){ var t=read(LS_TALLY,{guilty:0,not_guilty:0,too_close:0}); KEYS.forEach(function(k){ if(typeof t[k]!=="number") t[k]=0; }); return t; }
+  function render(){
+    var t=tally(), total=KEYS.reduce(function(s,k){return s+t[k];},0);
+    KEYS.forEach(function(k){
+      var pct= total? Math.round(t[k]/total*100):0;
+      var fill=results.querySelector('.pr-fill[data-k="'+k+'"]');
+      var num=results.querySelector('.pr-n[data-n="'+k+'"]');
+      if(fill) fill.style.width=pct+"%";
+      if(num) num.textContent=pct+"% ("+t[k]+")";
+    });
+    totalEl.textContent=total;
+    var mine=read(LS_VOTE,null);
+    Array.prototype.forEach.call(btns.querySelectorAll("button"),function(b){
+      b.classList.toggle("picked", b.getAttribute("data-vote")===mine);
+    });
+    results.hidden = total===0 && !mine;
+  }
+  btns.addEventListener("click",function(e){
+    var b=e.target.closest("button[data-vote]"); if(!b) return;
+    var choice=b.getAttribute("data-vote");
+    var t=tally(), prev=read(LS_VOTE,null);
+    if(prev===choice) return;            // already this vote
+    if(prev && t[prev]>0) t[prev]--;      // moving vote: decrement old
+    t[choice]++;
+    write(LS_TALLY,t); write(LS_VOTE,choice);
+    render();
+  });
+  reset.addEventListener("click",function(){
+    var t=tally(), prev=read(LS_VOTE,null);
+    if(prev && t[prev]>0){ t[prev]--; write(LS_TALLY,t); }
+    write(LS_VOTE,null); render();
+  });
+  render();
+})();
+</script>
 </body>
 </html>
 `;
