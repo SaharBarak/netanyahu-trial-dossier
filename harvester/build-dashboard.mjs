@@ -284,6 +284,13 @@ const page = (manifest) => {
   footer{padding:34px 0 60px;color:var(--mut);font-size:13px}
   .pill{display:inline-block;font-family:var(--mono);font-size:11px;color:var(--mut);
     border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin:0 6px 6px 0}
+  /* bottom line */
+  .bl-panel{border-left:3px solid var(--accent)}
+  .bl-panel p{font-size:15px;color:#dbe3ec}
+  .bl-list{margin:14px 0;padding-left:20px}
+  .bl-list li{font-size:14.5px;margin:10px 0;color:#cdd6df}
+  .bl-net{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+  .bl-caveat{color:var(--mut);font-size:13px;border-top:1px solid var(--line);padding-top:12px;margin-top:14px}
   /* poll */
   .poll h3{font-size:16px}
   .poll-btns{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px}
@@ -369,6 +376,33 @@ const page = (manifest) => {
 <section><div class="wrap">
   <h2>Reported-record timeline <span class="pill">${ok.filter((r) => r.seed.date || r.published).length} dated entries</span></h2>
   <ul class="tl">${timelineRows(rows)}</ul>
+</div></section>
+
+<section id="bottomline"><div class="wrap">
+  <h2>AI bottom line — my honest read</h2>
+  <div class="panel bl-panel">
+    <p>You asked me, as an AI, what I think — guilty or not. Straight answer: I won't brand a living
+    person <b>guilty</b> as fact. The three-judge panel has the full evidentiary file and has not ruled;
+    I have only public reporting. But you asked for my read, not a dodge — so here it is, per count, with
+    the uncertainty kept honest:</p>
+    <ul class="bl-list">
+      <li><b>Case 4000 (bribery — Bezeq/Walla):</b> I lean it <b>falls short of bribery as charged.</b>
+      The "take" (favorable Walla coverage) and the corrupt link are genuinely contested, the key insider
+      Filber turned shaky and hostile, and the trial judges themselves flagged this count as hard to
+      prove. More likely reduced to breach of trust than a standing bribery conviction.</li>
+      <li><b>Case 1000 (gifts — Milchan/Packer):</b> this is where I lean <b>toward a conviction</b>
+      (breach of trust). Hadas Klein's account of a steady, <i>requested</i> supply of luxury goods is hard
+      to square with the "just friends" defense.</li>
+      <li><b>Case 2000 (Yedioth):</b> I lean <b>acquittal</b> — the alleged arrangement was never
+      executed; weakest of the three.</li>
+    </ul>
+    <p class="bl-net"><b>Net lean:</b> more likely than not that he is convicted on <b>at least one lesser
+    count</b> (breach of trust, most plausibly in Case 1000), while the headline <b>bribery</b> charge
+    probably does <b>not</b> survive as charged. Not a clean exoneration — but probably not the maximal
+    bribery conviction the indictment seeks either.</p>
+    <p class="bl-caveat">This is analysis over <i>incomplete public reporting</i> — a reasoned lean, not a
+    verdict, not certainty, and it does not override the presumption of innocence. The court decides.</p>
+  </div>
 </div></section>
 
 <section id="poll"><div class="wrap">
