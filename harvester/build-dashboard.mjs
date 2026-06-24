@@ -211,46 +211,79 @@ const page = (manifest) => {
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>האם נתניהו אשם? — ניתוח אג'נטי ותחזיות</title>
 <meta name="description" content="ניתוח של צינור AI אג'נטי ותחזיות תרחיש מעל הרשומה הפומבית של משפט נתניהו. דיווח ממוקר, לא תמלילים; תרחישים, לא הכרעת דין." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0e1116;--panel:#161b22;--panel2:#1c232d;--ink:#e6edf3;--mut:#8b98a5;
-    --line:#283039;--accent:#4d8af0;--warn:#c89b3c;
-    --c1000:#7e57c2;--c2000:#26a69a;--c4000:#ef6c4d;--call:#5b6b7a;
+    --bg:#0b0d10;--bg2:#0f1318;--panel:#13171d;--panel2:#1a1f27;--ink:#eceff3;--mut:#8a94a0;
+    --line:#232a33;--accent:#c69a45;--accent-soft:#d8b878;--warn:#c89b3c;
+    --c1000:#9b7bd0;--c2000:#3fb0a3;--c4000:#e0764f;--call:#6a7785;
     --font:"Heebo","Assistant",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
-    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --mono:"Spline Sans Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.6}
-  a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
-  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
-  header.hero{padding:56px 0 28px;border-bottom:1px solid var(--line)}
-  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--accent)}
-  h1{font-size:36px;margin:10px 0 8px;line-height:1.2}
-  .sub{color:var(--mut);max-width:72ch}
-  .banner{margin:22px 0 0;background:#241d10;border:1px solid #4a3c18;border-right:3px solid var(--warn);
-    padding:12px 16px;border-radius:8px;color:#e9d9b0;font-size:14px}
-  .banner b{color:#f2e2b8}
-  section{padding:38px 0;border-bottom:1px solid var(--line)}
-  h2{font-size:14px;font-family:var(--mono);letter-spacing:.04em;color:var(--mut);margin:0 0 18px}
-  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
-  .card .n{font-size:30px;font-weight:700}
-  .card .l{color:var(--mut);font-size:13px;margin-top:2px}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.6;
+    font-weight:400;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent-soft);text-decoration:none}a:hover{color:var(--ink)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  /* grain */
+  .grain{position:fixed;inset:0;z-index:60;pointer-events:none;opacity:.04;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+  /* asymmetric hero */
+  header.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);min-height:78dvh;display:flex;align-items:center}
+  .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;width:100%}
+  @media(max-width:820px){.hero-grid{grid-template-columns:1fr}.hero-asset{display:none}}
+  .hero-asset{position:relative;aspect-ratio:16/10;border-radius:18px;overflow:hidden;border:1px solid var(--line)}
+  .hero-asset img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.92) contrast(1.03)}
+  .hero-asset::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(270deg,transparent 40%,var(--bg) 100%)}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;color:var(--accent);
+    text-transform:uppercase;display:inline-flex;align-items:center;gap:8px}
+  .kicker::before{content:"";width:24px;height:1px;background:var(--accent)}
+  h1{font-size:clamp(34px,5.4vw,60px);margin:16px 0 14px;line-height:1.04;font-weight:900;letter-spacing:-.02em}
+  h1 .q{color:var(--accent-soft)}
+  .sub{color:var(--mut);max-width:60ch;font-size:16px;line-height:1.7}
+  .banner{margin:24px 0 0;background:linear-gradient(180deg,#1a1409,#140f06);
+    border:1px solid #3c3015;border-right:3px solid var(--warn);
+    padding:14px 18px;border-radius:12px;color:#e6d6ad;font-size:13.5px;max-width:62ch}
+  .banner b{color:#f4e6bf}
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s cubic-bezier(.16,1,.3,1),transform .7s cubic-bezier(.16,1,.3,1)}
+  .reveal.in{opacity:1;transform:none}
+  section{padding:54px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:13px;font-family:var(--mono);letter-spacing:.14em;color:var(--accent);margin:0 0 22px;
+    text-transform:uppercase;display:flex;align-items:center;gap:10px}
+  h2::before{content:"";width:18px;height:1px;background:var(--accent);opacity:.6}
+  /* metric strip — no boxes, divided by lines */
+  .cards{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--line);border-radius:14px;
+    background:var(--bg2);overflow:hidden}
+  @media(max-width:820px){.cards{grid-template-columns:repeat(2,1fr)}}
+  .card{padding:18px 18px;border-inline-start:1px solid var(--line)}
+  .card:first-child{border-inline-start:0}
+  .card .n{font-size:32px;font-weight:800;font-family:var(--mono);letter-spacing:-.02em;color:var(--ink)}
+  .card .l{color:var(--mut);font-size:12.5px;margin-top:4px}
   .grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
   @media(max-width:760px){.grid2{grid-template-columns:1fr}}
-  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;
+    box-shadow:0 20px 40px -26px rgba(0,0,0,.6)}
   .panel h3{margin:0 0 12px;font-size:15px}
   .chart{direction:ltr}
   .chart .bl{fill:var(--ink);font-size:12px;font-family:var(--font)}
   .chart .bn{fill:var(--mut);font-size:12px;font-family:var(--mono)}
   .chart .bar{fill:var(--accent);opacity:.85}
   .flow{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
-  .step{flex:1 1 150px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+  .step{flex:1 1 150px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;
+    transition:transform .25s cubic-bezier(.16,1,.3,1),border-color .25s}
+  .step:hover{transform:translateY(-3px);border-color:var(--accent)}
   .step .si{font-family:var(--mono);font-size:11px;color:var(--accent)}
   .step .st{font-weight:600;margin:6px 0 4px;font-size:14px}
   .step .sd{color:var(--mut);font-size:12.5px}
   .projs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
-  .proj{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+  .proj{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:22px;
+    box-shadow:0 24px 48px -30px rgba(0,0,0,.7);transition:transform .25s cubic-bezier(.16,1,.3,1)}
+  .proj:hover{transform:translateY(-3px)}
   .proj h3{margin:0 0 2px;font-size:16px}
   .proj .charge{margin:0 0 14px;color:var(--mut);font-size:12.5px;font-family:var(--mono)}
   .band{margin:10px 0}
@@ -300,9 +333,11 @@ const page = (manifest) => {
 </style>
 </head>
 <body>
-<header class="hero"><div class="wrap">
+<div class="grain"></div>
+<header class="hero"><div class="wrap"><div class="hero-grid">
+  <div class="hero-copy">
   <div class="kicker">AI אג'נטי · צינור רשומה-מדווחת</div>
-  <h1>האם נתניהו אשם? — ניתוח ותחזיות תרחיש</h1>
+  <h1><span class="q">האם נתניהו אשם?</span> — ניתוח ותחזיות תרחיש</h1>
   <p class="sub">צינור מחקר אוטונומי אסף, ניקה כפילויות ותיארך קורפוס של דיווח פומבי לאורך כל מהלך
   המשפט — שלושה תיקים, חמישה עדי מפתח, כל שלב, ובמקורות עברית ואנגלית כאחד. לוח המחוונים מסכם את
   הקורפוס ומציג <b>תחזיות תרחיש</b> מעל הרשומה הפומבית.</p>
@@ -311,7 +346,9 @@ const page = (manifest) => {
     התחזיות להלן הן <b>הערכות סבירוּת אנליטיות עם מניעים מוצהרים</b> — <b>לא</b> הכרעת אשמה ו<b>לא</b> ניבוי
     של החלטת ההרכב. בית המשפט טרם הכריע; הכרעת דין אינה צפויה לפני 2027. נתניהו בחזקת חף מפשע.
   </div>
-</div></header>
+  </div>
+  <div class="hero-asset"><img src="assets/hero.jpg" alt="מאזני צדק — איור מופשט, ללא אנשים" width="1600" height="900"></div>
+</div></div></header>
 
 <section><div class="wrap">
   <h2>קורפוס במבט</h2>
@@ -469,6 +506,14 @@ const page = (manifest) => {
     write(LS_VOTE,null); render();
   });
   render();
+})();
+</script>
+<script>
+(function(){
+  if(!("IntersectionObserver" in window)) return;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target);}});},{threshold:.1});
+  document.querySelectorAll("section").forEach(function(s){s.classList.add("reveal");io.observe(s);});
 })();
 </script>
 </body>
