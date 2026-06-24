@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saharbarak.github.io/netanyahu-trial-dossier/sitemap.xml

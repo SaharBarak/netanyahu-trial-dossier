@@ -22,6 +22,9 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, "..");
 const MANIFEST_PATH = resolve(ROOT, "data", "manifest.json");
 const OUT_PATH = resolve(ROOT, "index.html");
+const ROBOTS_PATH = resolve(ROOT, "robots.txt");
+const SITEMAP_PATH = resolve(ROOT, "sitemap.xml");
+const SITE = "https://saharbarak.github.io/netanyahu-trial-dossier";
 
 const CASE_LABEL = {
   "1000": "תיק 1000 — מתנות",
@@ -214,6 +217,93 @@ const page = (manifest) => {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;900&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- SEO -->
+<link rel="canonical" href="${SITE}/" />
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+<meta name="author" content="SaharBarak" />
+<meta name="theme-color" content="#0b0d10" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="האם נתניהו אשם? — ניתוח ותחזיות" />
+<meta property="og:locale" content="he_IL" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:title" content="האם נתניהו אשם? — ניתוח אג'נטי ותחזיות תרחיש" />
+<meta property="og:description" content="ניתוח צינור AI אג'נטי ותחזיות תרחיש מעל הרשומה הפומבית של משפט נתניהו (תיקים 1000/2000/4000). דיווח ממוקר, לא תמלילים; תרחישים, לא הכרעת דין." />
+<meta property="og:url" content="${SITE}/" />
+<meta property="og:image" content="${SITE}/assets/hero.jpg" />
+<meta property="og:image:width" content="1600" />
+<meta property="og:image:height" content="900" />
+<meta property="og:image:alt" content="מאזני צדק — איור מופשט" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="האם נתניהו אשם? — ניתוח אג'נטי ותחזיות" />
+<meta name="twitter:description" content="תחזיות תרחיש מעל הרשומה הפומבית של משפט נתניהו. דיווח ממוקר, לא הכרעת דין." />
+<meta name="twitter:image" content="${SITE}/assets/hero.jpg" />
+
+<!-- AEO: structured data for answer engines -->
+<script type="application/ld+json">
+${JSON.stringify(
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": `${SITE}/#webpage`,
+        url: `${SITE}/`,
+        name: "האם נתניהו אשם? — ניתוח ותחזיות תרחיש",
+        inLanguage: "he",
+        description:
+          "ניתוח צינור AI אג'נטי ותחזיות תרחיש מעל הרשומה הפומבית של משפט נתניהו (תיקים 1000, 2000, 4000). דיווח ממוקר, לא תמלילים; תרחישים, לא הכרעת דין.",
+        about: { "@type": "Event", name: "משפט נתניהו (תיקי האלפים)" },
+        isPartOf: { "@type": "WebSite", name: "Netanyahu Trial Dossier", url: `${SITE}/` },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${SITE}/#faq`,
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "האם נתניהו נמצא אשם?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text:
+                "לא. נכון ליוני 2026 המשפט עדיין מתנהל, הרכב שלושת השופטים טרם הכריע, והכרעת דין אינה צפויה לפני 2027. נתניהו בחזקת חף מפשע. ניתוח זה מציג תחזיות תרחיש בלבד, לא הכרעת דין.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "באילו תיקים מואשם נתניהו?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text:
+                "שלושה תיקים: תיק 1000 (פרשת המתנות ממילצ'ן ופאקר — מרמה והפרת אמונים), תיק 2000 (ידיעות אחרונות/מוזס — מרמה והפרת אמונים), ותיק 4000 (בזק-וואלה/אלוביץ' — שוחד, מרמה והפרת אמונים, החמור מביניהם).",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "מתי צפויה הכרעת דין במשפט נתניהו?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text:
+                "עדות נתניהו הסתיימה ב-24 ביוני 2026 לאחר 98 דיונים. בהמשך צפויים עדי הגנה וסיכומים; כתיבת הכרעת הדין מוערכת סביב 2027, וערעור אפשרי לבית המשפט העליון עד 2028–2030.",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  null,
+  2
+)}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KW5V2SPTR7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KW5V2SPTR7');
+</script>
 <style>
   :root{
     --bg:#0b0d10;--bg2:#0f1318;--panel:#13171d;--panel2:#1a1f27;--ink:#eceff3;--mut:#8a94a0;
@@ -525,7 +615,20 @@ const main = async () => {
   const manifest = JSON.parse(await readFile(MANIFEST_PATH, "utf8"));
   const html = page(manifest);
   await writeFile(OUT_PATH, html);
-  process.stderr.write(`Wrote ${OUT_PATH} (${(html.length / 1024).toFixed(1)} KB)\n`);
+
+  const gen = manifest.generatedAt?.slice(0, 10) || "2026-06-24";
+  await writeFile(
+    ROBOTS_PATH,
+    `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`
+  );
+  await writeFile(
+    SITEMAP_PATH,
+    `<?xml version="1.0" encoding="UTF-8"?>\n` +
+      `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+      `  <url><loc>${SITE}/</loc><lastmod>${gen}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>\n` +
+      `</urlset>\n`
+  );
+  process.stderr.write(`Wrote ${OUT_PATH} (${(html.length / 1024).toFixed(1)} KB) + robots.txt + sitemap.xml\n`);
 };
 
 main().catch((e) => {
