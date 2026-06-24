@@ -6,7 +6,7 @@
 > not a court transcript** — no verbatim hearing record exists publicly (see
 > `docs/06-transcript-research.md`).
 
-_Generated 2026-06-24 — 71/74 sources reachable._
+_Generated 2026-06-24 — 91/100 sources reachable._
 
 ## Pre-trial (2020)
 
@@ -28,9 +28,28 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2024-12-11** — [Netanyahu argues ‘hostile’ Walla coverage, telecom reforms prove bribery claims ‘absurd’](https://www.timesofisrael.com/netanyahu-argues-hostile-walla-coverage-telecoms-reforms-prove-bribery-claims-absurd/) — _Times of Israel_ `Case 4000`
   - Theme: Direct: hostile Walla coverage + reforms make bribery 'absurd'
   - Dek (≤14w): "On the second day of his testimony, PM acknowledges trying to change news site's …"
+- **2024-12-15** — [נתניהו יעלה ליום העדות השלישי: במוקד - תיק 4000 וההטבות שהעניק לכאורה לבזק](https://www.ynet.co.il/news/article/h1yd11ih4kg) — _ynet_ `Case 4000`
+  - Theme: יום עדות שלישי: תיק 4000 וההטבות לבזק
+  - By: נטעאל בנדל
+  - Dek (≤14w): "רה״מ יתייצב בבית המשפט המחוזי בת״א לעדות נוספת במשפטו הפלילי, שתעסוק בתיק 4000 בו …"
+- **Mon, 21 Ap** — [נתניהו העיד על תיק 1000: "מילצ'ן יזם. רצה להנעים את חיינו"](https://www.globes.co.il/news/article.aspx?did=1001508293) — _גלובס_ `Case 1000`
+  - Theme: נתניהו העיד על תיק 1000: 'מילצ'ן יזם, רצה להנעים את חיינו'
+- **undated** — [לאחר 80 ימי דיונים: התביעה מכוונת לסיום חקירת נתניהו בתיק בזק-וואלה](https://www.maariv.co.il/news/law/article-1282044) — _מעריב_ `Case 4000`
+  - Theme: ארבעה ימי דיונים — לקראת סיום בתיק 4000
+  - Dek (≤14w): "משפט ראש הממשלה בנימין נתניהו: בתחילת השבוע החוקר יורם נעמן ימשיך להעיד מטעם ההגנה. …"
+- **undated** — [נתניהו מעיד בתיק 4000 — פרשת בזק-אלוביץ'](https://www.israelhayom.co.il/news/law/article/19266809) — _ישראל היום_ `Case 4000` ⚠️(HTTP 403)
+  - Theme: נתניהו מעיד בתיק 4000 — פרשת בזק-אלוביץ'
 
 ## Phase B — Cross-examination
 
+- **2025-05-27** — [משפט נתניהו: רה"מ חזר לדוכן העדים, ונחקר על תיק 2000](https://www.mako.co.il/news-law/2025_q2/Article-ff2fea3b6501791027.htm) — _N12_ `Case 2000`
+  - Theme: רה"מ חזר לדוכן העדים ונחקר על תיק 2000
+  - By: ענבר טויזר
+  - Dek (≤14w): "ראש הממשלה נחקר על ידי עורכי דינו של נוני מוזס, בעל השליטה בידיעות אחרונות …"
+- **2025-06-02** — [החקירה הנגדית של נתניהו מתחילה, הפרקליטות תנסה "להציל" את סעיף השוחד](https://www.ynet.co.il/news/article/rje59ximel) — _ynet_ `Case 4000`
+  - Theme: החקירה הנגדית מתחילה; הפרקליטות תנסה 'להציל' את סעיף השוחד
+  - By: נטעאל בנדל
+  - Dek (≤14w): "אחרי כמעט חצי שנה שבה נחקר על-ידי סנגורו, החקירה הנגדית של רה"מ יוצאת לדרך …"
 - **2025-06-03** — [5 years into his criminal trial, cross-examination of Netanyahu to begin on Tuesday](https://www.timesofisrael.com/cross-examination-of-netanyahu-in-criminal-trial-to-begin-on-tuesday/) — _Times of Israel_
   - Theme: Cross-examination to begin Tuesday (5 yrs in)
   - Dek (≤14w): "Process may take a year to complete, after PM's questioning by defense attorney took …"
@@ -81,6 +100,10 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2026-05-12** — [Netanyahu’s testimony shifts to Case 2000 after Case 4000 cross-examination | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-895917) — _Jerusalem Post_ `Case 2000`
   - Theme: Testimony shifts to Case 2000 after Case 4000 cross
   - Dek (≤14w): "Netanyahu’s defense enters its final stretch, with Case 4000 concluding and prosecutors now tackling …"
+- **2026-05-12** — [עדות נתניהו: הסתיימה החקירה בתיק 4000 והחלה בתיק 2000](https://www.mako.co.il/news-law/2026_q2/Article-0f712f6897b1e91026.htm) — _N12_ `Case 2000`
+  - Theme: הסתיימה החקירה בתיק 4000 והחלה בתיק 2000
+  - By: איתם אלמדון, יעל יפה
+  - Dek (≤14w): "אחרי חצי שנה של עיכובים, החלה החקירה הנגדית של רה"מ נתניהו בתיק 2000. תיק …"
 - **2026-05-19** — [Cross-examination questioning continues in Case 2000 | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-896666) — _Jerusalem Post_ `Case 2000`
   - Theme: Cross-examination questioning continues in Case 2000
   - Dek (≤14w): "The hearing began with an announcement from presiding judges Rivka Friedman-Feldman, Moshe Bar-Am and …"
@@ -94,6 +117,15 @@ _Generated 2026-06-24 — 71/74 sources reachable._
   - Theme: PM: talks with publisher on curbing rival were not criminal
 - **undated** — [PM in court as trial passes 6-year mark](https://www.timesofisrael.com/liveblog_entry/netanyahu-in-court-to-testify-as-his-corruption-trial-passes-6-year-mark/) — _Times of Israel_ ⚠️(HTTP 403)
   - Theme: PM in court as trial passes 6-year mark
+- **undated** — [פרשת נתניהו ונוני מוזס מגיעה לשיא: התשובה של רה"מ טרם הגיעה](https://www.maariv.co.il/news/law/article-1329897) — _מעריב_ `Case 2000`
+  - Theme: נתניהו מעיד בתיק 2000: חקירה נגדית במשפט מוזס
+  - Dek (≤14w): "ראש הממשלה יעיד השבוע במשפט תיק 2000 במסגרת חקירה נגדית, כשעל פי האישום נידונו …"
+- **undated** — [רגע לפני הסוף? השבוע הדרמטי שמחכה לנתניהו בבית המשפט](https://www.maariv.co.il/news/law/article-1332526) — _מעריב_ `Case 2000`
+  - Theme: רה"מ נכנס לישורת האחרונה בתיק 2000
+  - Dek (≤14w): "השבוע צפויה להימשך עדותו של בנימין נתניהו בתיק 2000, במסגרת החקירה הנגדית בפרשת נתניהו-מוזס. …"
+- **undated** — [נתניהו פצח בנאום כללי בדיון: "לא העליתי על דעתי, זה מזעזע אותי"](https://www.maariv.co.il/news/law/article-1336326) — _מעריב_
+  - Theme: נתניהו פצח בנאום כללי בדיון: 'זה מזעזע אותי'
+  - Dek (≤14w): "בשבוע שעבר הסתיימה החקירה הנגדית של ראש הממשלה, וכעת המשפט נמצא בשלב החקירה החוזרת …"
 
 ## Evidence / state witnesses
 
@@ -129,7 +161,7 @@ _Generated 2026-06-24 — 71/74 sources reachable._
   - Dek (≤14w): "Nir Hefetz says at cross-examination that former premier blamed all Israeli negative coverage on …"
 - **2022-01-10** — [Ex-Netanyahu aide got standard police treatment, witness says in corruption trial](https://www.haaretz.com/israel-news/.premium-ex-netanyahu-aide-got-standard-police-treatment-witness-says-in-corruption-trial-1.10528335) — _Haaretz_ `Case 4000`
   - Theme: Witness: ex-aide Hefetz got standard police treatment
-  - Dek (≤14w): "'Nothing was done that wasn’t done to other detainees in other cases,' says officer …"
+  - Dek (≤14w): "'Nothing Was Done That Wasn’t Done to Other Detainees in Other Cases,' Says Officer …"
 - **2022-03-29** — [Prosecutors ask to treat state witness in Netanyahu trial as hostile witness, relent](https://www.timesofisrael.com/prosecutors-to-cross-examine-state-witness-in-netanyahu-trial-after-inconsistencies/) — _Times of Israel_ `Case 4000`
   - Theme: Prosecutors move to treat state witness (Filber) as hostile
   - Dek (≤14w): "State will instead cross-examine key witness Shlomo Filber after raising inconsistencies in his evidence; …"
@@ -142,6 +174,10 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2022-07-05** — [Key witness at trial describes the Netanyahus’ incessant demands for gifts](https://www.timesofisrael.com/key-witness-describes-incessant-demands-from-netanyahus-for-gifts/) — _Times of Israel_ `Case 1000`
   - Theme: Hadas Klein: Netanyahus' incessant demands for gifts
   - Dek (≤14w): "Hadas Klein, aide to billionaires Arnon Milchan and James Packer, tells court about continuous …"
+- **2022-07-05** — [קליין מעידה בתיק 1000: "שרה הורתה לסגור את השמפניות בשקיות שחורות" | כלכליסט](https://www.calcalist.co.il/local_news/article/hkjnfpzsq) — _כלכליסט_ `Case 1000`
+  - Theme: קליין מעידה בתיק 1000: 'שרה הורתה לסגור שמפניות בשקיות שחורות'
+  - By: גלעד מורג וחיים גולדיטש, ynet
+  - Dek (≤14w): "נמשכת עדותה של הדס קליין, העוזרת האישית של ארנון מילצ'ן וג'יימס פאקר, בתיק 1000. …"
 - **2022-07-06** — [Milchan aide testifies Netanyahu introduced her boss to Kerry to help him get visa](https://www.timesofisrael.com/milchan-aide-testifies-netanyahu-introduced-her-boss-to-kerry-to-help-him-get-visa/) — _Times of Israel_ `Case 1000`
   - Theme: Milchan aide: Netanyahu introduced Milchan to Kerry re visa
   - Dek (≤14w): "Underlining alleged quid pro quo in Case 1000, Hadas Klein says ex-PM called Milchan …"
@@ -151,9 +187,10 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2022-07-12** — [Key witness in trial denies Netanyahus got luxury gifts out of genuine friendship](https://www.timesofisrael.com/key-witness-in-trial-denies-netanyahus-got-luxury-gifts-out-of-genuine-friendship/) — _Times of Israel_ `Case 1000`
   - Theme: Klein: gifts not from genuine friendship
   - Dek (≤14w): "Hadas Klein, on first day of cross-examination, rejects claims she hid evidence by throwing …"
-- **2022-07-18** — [Netanyahu vetoed large donation by Packer to Peres Center, key witness tells court](https://www.timesofisrael.com/netanyahu-vetoed-large-donation-by-packer-to-peres-center-key-witness-tells-court/) — _Times of Israel_ `Case 1000`
-  - Theme: Klein: Netanyahu vetoed Packer donation to Peres Center
-  - Dek (≤14w): "Former PM, a longtime political rival of late Shimon Peres, 'was very angry' upon …"
+- **2022-07-20** — [המספרים מאחורי תיק 1000, העימותים והפגישות בחניונים: סיכום ביניים](https://www.mako.co.il/news-law/2022_q3/Article-c4c9823d20b1281027.htm) — _N12_ `Case 1000`
+  - Theme: המספרים מאחורי תיק 1000: סיכום ביניים
+  - By: יובל אראל
+  - Dek (≤14w): "עו"ד חדד ניסה לערער על טענת "קו האספקה" שבכתב האישום, וטען כי היקף המתנות …"
 - **2022-09-12** — [Witness in graft trial says Netanyahu asked for NIS 3,000 ‘tip’ to spend in Tiberias](https://www.timesofisrael.com/key-witness-in-netanyahu-graft-trial-says-former-pm-demanded-nis-3000-for-trip/) — _Times of Israel_ `Case 1000`
   - Theme: Witness: Netanyahu demanded NIS 3,000 'tip' for Tiberias trip
   - Dek (≤14w): "Hadas Klein says money from boss Arnon Milchan's petty cash went to satisfy demand …"
@@ -169,9 +206,27 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2023-07-09** — [Benjamin Netanyahu trial: Milchan and Klein give two conflicting testimonies | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-749394) — _Jerusalem Post_ `Case 1000`
   - Theme: Milchan and Klein give conflicting testimonies
   - Dek (≤14w): "Two realities of the relationship between Milchan and Netanyahu were created by Klein and …"
+- **2023-12-18** — [חוקר בתיק 4000: לא איימנו על אלוביץ' כדי שיהיה עד מדינה, שיקפנו מציאות](https://www.haaretz.co.il/news/law/netanyahutrial/2023-12-18/ty-article/0000018c-7d3a-de8a-afac-ff3b31170000) — _הארץ_ `Case 4000`
+  - Theme: חוקר תיק 4000: לא איימנו על אלוביץ' כדי לגייסו כעד מדינה
+  - Dek (≤14w): "אורי קנר, שחקר את בעל השליטה לשעבר בקבוצת בזק המואשם בשוחד, הכחיש שניסה ללחוץ …"
 - **2024-04-08** — [Benjamin Netanyahu trial: State witness deal with Shlomo Filber nullified | The Jerusalem Post](https://www.jpost.com/breaking-news/article-795983) — _Jerusalem Post_ `Case 4000`
   - Theme: Filber state-witness deal nullified
   - Dek (≤14w): "This explosive development could change the entire nature of the media bribery and fraud …"
+- **Thu, 06 Ju** — [מילצ'ן על רכישת המתנות: הכמויות הלכו וגברו. לא יודע סכומים](https://www.globes.co.il/news/article.aspx?did=1001451605) — _גלובס_ `Case 1000`
+  - Theme: מילצ'ן על רכישת המתנות: הכמויות הלכו וגברו
+- **undated** — [Klein: Netanyahu vetoed Packer donation to Peres Center](https://www.timesofisrael.com/netanyahu-vetoed-large-donation-by-packer-to-peres-center-key-witness-tells-court/) — _Times of Israel_ `Case 1000` ⚠️(HTTP 429)
+  - Theme: Klein: Netanyahu vetoed Packer donation to Peres Center
+- **undated** — [עדות העוזרת של מילצ'ן: נתניהו בעצמו דרש מתנות](https://www.kan.org.il/content/kan-news/law/229700/) — _כאן_ `Case 1000` ⚠️(HTTP 403)
+  - Theme: עדות העוזרת של מילצ'ן: נתניהו בעצמו דרש מתנות
+- **undated** — [הדס קליין: 'מילצ'ן לימד את פאקר — לנתניהו לא באים בידיים ריקות'](https://www.israelhayom.co.il/news/law/article/12046875) — _ישראל היום_ `Case 1000` ⚠️(HTTP 403)
+  - Theme: הדס קליין: 'מילצ'ן לימד את פאקר — לנתניהו לא באים בידיים ריקות'
+- **undated** — [הדס קליין העידה: "קניתי לשרה נתניהו תכשיט ב-2,000 דולר באישור ביבי"](https://www.maariv.co.il/news/law/Article-929839) — _מעריב_ `Case 1000`
+  - Theme: תיק 1000: עדותה של הדס קליין
+  - Dek (≤14w): "העוזרת לשעבר של ארנון מילצ'ן המשיכה להעיד במסגרת תיק 1000. מקורבי נתניהו: "עדותה של …"
+- **undated** — ['תיק 2000' נפתח לראשונה; חפץ על יחסי מוזס ונתניהו](https://www.the7eye.org.il/437642) — _העין השביעית_ `Case 2000` ⚠️(HTTP 403)
+  - Theme: 'תיק 2000' נפתח לראשונה; חפץ על יחסי מוזס ונתניהו
+- **undated** — [תיק 2000: עורך ידיעות אחרונות העיד במשטרה](https://www.kan.org.il/content/kan-news/law/232577/) — _כאן_ `Case 2000` ⚠️(HTTP 403)
+  - Theme: תיק 2000: עורך ידיעות אחרונות העיד במשטרה
 
 ## Phase C — Re-examination / final
 
@@ -181,6 +236,13 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2026-06-16** — [Israeli prosecutors conclude final cross-examination in Netanyahu corruption trial](https://www.jns.org/news/israel-news/israeli-prosecutors-conclude-final-cross-examination-in-netanyahu-corruption-trial) — _JNS_
   - Theme: Prosecutors conclude final cross-examination
   - Dek (≤14w): "The Israeli prime minister is expected to take the stand for several more days …"
+- **2026-06-16** — [אחרי כשנה, הסתיימה החקירה הנגדית של נתניהו בתיקי האלפים](https://www.haaretz.co.il/news/law/netanyahutrial/2026-06-16/ty-article/0000019e-d033-d992-a1fe-f13350130000) — _הארץ_
+  - Theme: אחרי כשנה, הסתיימה החקירה הנגדית של נתניהו
+  - Dek (≤14w): "ראש הממשלה צפוי להיחקר בידי ההגנה במשך כארבעה דיונים נוספים, ולאחר מכן צפויה להסתיים …"
+- **2026-06-16** — [אחרי 94 ימי דיונים: הסתיימה החקירה הנגדית של נתניהו במשפטו](https://www.ynet.co.il/news/article/hjbhsjr11gx) — _ynet_
+  - Theme: אחרי 94 ימי דיונים: הסתיימה החקירה הנגדית של נתניהו
+  - By: נטעאל בנדל
+  - Dek (≤14w): "בימיה האחרונים של החקירה הנגדית עסקה התביעה בתיק 2000, שבו נאשם גם נוני מוזס. …"
 - **2026-06-23** — [Benjamin Netanyahu: Prosecuters set traps during final questioning of trial | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-900132) — _Jerusalem Post_
   - Theme: Prosecutors set traps during final questioning
   - Dek (≤14w): "Netanyahu said prosecutors had caused him to give answers that could be portrayed as …"
@@ -190,6 +252,16 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2026-06-24** — [Netanyahu denounces ‘police state’ trial as his cross-examination ends after over a year](https://www.timesofisrael.com/netanyahu-denounces-police-state-trial-as-cross-examination-ends-after-over-a-year/) — _Times of Israel_
   - Theme: Denounces 'police state' trial as cross-examination ends
   - Dek (≤14w): "PM claims people likened his prosecutors to the 'Stasi' as state attorney scrutinizes Netanyahu's …"
+- **2026-06-24** — [אחרי שנה וחצי הסתיימה עדות רה"מ בתיקי האלפים; נתניהו: עשור של גיהינום](https://www.haaretz.co.il/news/law/netanyahutrial/2026-06-24/ty-article/0000019e-f8ae-d4c5-a9fe-fdeea6640000) — _הארץ_
+  - Theme: אחרי 98 דיונים הסתיימה עדות רה"מ; 'עשור של גיהינום'
+  - Dek (≤14w): "חקירתו הנגדית של נתניהו הסתיימה בשבוע שעבר, ומאז היו דיונים נוספים לצורך חקירה חוזרת …"
+- **2026-06-24** — [אחרי 98 דיונים, הסתיימה עדות נתניהו במשפטו: "10 שנים של גיהינום"](https://www.ynet.co.il/news/article/rkdqkzyggg) — _ynet_
+  - Theme: אחרי 98 דיונים, הסתיימה עדות נתניהו: '10 שנים של גיהינום'
+  - By: נטעאל בנדל
+  - Dek (≤14w): "שנה וחצי אחרי שהחלה עדותו, האשים ראש הממשלה בבית המשפט: "חוויתי גיהינום, הדבר הנבזי …"
+- **undated** — [משפט נתניהו: תמה החקירה הנגדית של רה"מ - מחר תתקיים חקירה חוזרת של הסנגורים](https://www.maariv.co.il/news/law/article-1333422) — _מעריב_
+  - Theme: תמה החקירה הנגדית; מחר חקירה חוזרת של הסנגורים
+  - Dek (≤14w): "עדותו של רה"מ בנימין נתניהו במסגרת החקירה הנגדית בתיק 2000 ובתיק 4000 הסתיימה היום …"
 
 ## Legal analysis
 
@@ -199,6 +271,9 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2023-06-29** — [Judges in Netanyahu trial confirm suggesting prosecution drop bribery charge](https://www.timesofisrael.com/judges-in-netanyahu-trial-confirm-suggesting-prosecution-drop-bribery-charge/) — _Times of Israel_ `Case 4000`
   - Theme: Judges confirm suggesting prosecution drop bribery charge
   - Dek (≤14w): "Justices issue official record of contents of meeting, note that the state's representative rejected …"
+- **2026-06-21** — [התיק לא קרס: בתום עדות נתניהו, התביעה מובילה בנקודות בתיק השוחד](https://www.themarker.com/law/2026-06-21/ty-article-magazine/.premium/0000019e-e474-d698-adbf-e57612b50000) — _TheMarker_ `Case 4000`
+  - Theme: התיק לא קרס: התביעה מובילה בנקודות בתיק השוחד
+  - Dek (≤14w): "האם יחסי נתניהו עם שאול אלוביץ' היו חברות תועלתנית, או עסקת שוחד? ■ אחרי …"
 
 ## Scheduling / logistics
 
@@ -241,6 +316,9 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 - **2026-05-05** — [For second day in a row • Judges agree to delay Netanyahu trial hearing over 'security schedule'](https://www.haaretz.com/israel-news/israel-politics/2026-05-05/ty-article/.premium/judges-agree-to-move-netanyahu-trial-hearing-over-security-schedule/0000019d-f772-df01-a3dd-f7fb11380000) — _Haaretz_
   - Theme: Judges agree to delay hearing over 'security schedule'
   - Dek (≤14w): "Netanyahu's testimony in his graft trial was also canceled last week, after the Iran …"
+- **undated** — [בית המשפט סירב לקצר את הדיון - ואז נתניהו שלף את שובר השוויון שלו](https://www.maariv.co.il/news/law/article-1315270) — _מעריב_
+  - Theme: השופטים דחו בקשה לקיצור הדיון מסיבות ביטחוניות
+  - Dek (≤14w): "השופטים דחו את בקשת נתניהו לקצר את הדיון עקב לו"ז ביטחוני, אך אישרו לו …"
 
 ## Context
 
@@ -260,7 +338,7 @@ _Generated 2026-06-24 — 71/74 sources reachable._
 
 ## Provenance
 
-- Seeds: `harvester/seeds.json` (74 entries)
-- Reachable at harvest time: 71/74
+- Seeds: `harvester/seeds.json` (100 entries)
+- Reachable at harvest time: 91/100
 - Machine manifest: `data/manifest.json`
 - Method: metadata-only fetch (OG/JSON-LD/standard tags); no article body stored.

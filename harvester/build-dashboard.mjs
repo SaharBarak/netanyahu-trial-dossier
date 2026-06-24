@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 // @ts-check
 /**
- * Dashboard builder
- * -----------------
- * Reads data/manifest.json (produced by harvest.mjs) and emits a self-contained
- * GitHub Pages dashboard at ../index.html. Data is baked inline — no runtime
- * fetch, works on Pages and from file://. Zero dependencies.
+ * Dashboard builder (Hebrew / RTL)
+ * --------------------------------
+ * Reads data/manifest.json (from harvest.mjs) and emits a self-contained
+ * GitHub Pages dashboard at ../index.html, in Hebrew with RTL layout. Data is
+ * baked inline — no runtime fetch. Zero dependencies.
  *
- * The "projections" are explicitly SCENARIO LIKELIHOODS with stated drivers,
- * not a guilt verdict and not a prediction of the court's ruling. See the
- * methodology + limitations panels rendered into the page.
+ * The projections are SCENARIO LIKELIHOODS with stated drivers — not a guilt
+ * verdict and not a prediction of the court's ruling. The page title is an
+ * open question ("Is Netanyahu guilty?"), not an assertion.
  *
  *   node harvester/build-dashboard.mjs
  */
@@ -24,21 +24,21 @@ const MANIFEST_PATH = resolve(ROOT, "data", "manifest.json");
 const OUT_PATH = resolve(ROOT, "index.html");
 
 const CASE_LABEL = {
-  "1000": "Case 1000 — Gifts",
-  "2000": "Case 2000 — Yedioth",
-  "4000": "Case 4000 — Bezeq/Walla",
-  all: "Cross-case / procedural",
+  "1000": "תיק 1000 — מתנות",
+  "2000": "תיק 2000 — ידיעות",
+  "4000": "תיק 4000 — בזק/וואלה",
+  all: "כלל-תיקי / פרוצדורלי",
 };
 const PHASE_LABEL = {
-  pretrial: "Pre-trial (2020)",
-  evidence: "Prosecution witnesses (2021–24)",
-  "A-direct": "Direct examination",
-  "B-cross": "Cross-examination",
-  "C-reexam": "Re-examination / final",
-  analysis: "Legal analysis",
-  logistics: "Scheduling",
-  cancellations: "Cancellations / delays",
-  context: "Context",
+  pretrial: "טרום-משפט (2020)",
+  evidence: "עדי תביעה (2021–24)",
+  "A-direct": "חקירה ראשית",
+  "B-cross": "חקירה נגדית",
+  "C-reexam": "חקירה חוזרת / סיום",
+  analysis: "ניתוח משפטי",
+  logistics: "לוח זמנים",
+  cancellations: "ביטולים / עיכובים",
+  context: "הקשר",
 };
 const PHASE_ORDER = [
   "pretrial",
@@ -52,74 +52,67 @@ const PHASE_ORDER = [
   "context",
 ];
 
-/**
- * Scenario projections. Each is a qualitative likelihood band with explicit
- * drivers and falsifiers. These are analytical scenarios over the PUBLIC
- * record — NOT a verdict, NOT a prediction of the panel's decision.
- */
+/** Scenario projections — qualitative bands with drivers/falsifiers. NOT a verdict. */
 const PROJECTIONS = {
   asOf: "2026-06-24",
   cases: [
     {
-      id: "4000",
-      title: "Case 4000 — Bribery (Bezeq / Walla)",
-      charge: "Bribery + fraud + breach of trust",
+      title: "תיק 4000 — שוחד (בזק / וואלה)",
+      charge: "שוחד + מרמה + הפרת אמונים",
       bands: [
-        { outcome: "Bribery conviction as charged", level: "Lower", pct: 25 },
-        { outcome: "Reduced to fraud / breach of trust", level: "Higher", pct: 45 },
-        { outcome: "Acquittal on Case 4000", level: "Moderate", pct: 30 },
+        { outcome: "הרשעה בשוחד כפי שהואשם", level: "Lower", pct: 25 },
+        { outcome: "המרה למרמה / הפרת אמונים", level: "Higher", pct: 45 },
+        { outcome: "זיכוי בתיק 4000", level: "Moderate", pct: 30 },
       ],
       drivers: [
-        "Trial judges themselves signalled the bribery count is 'difficult to prove' and floated dropping it.",
-        "State witness Filber gave inconsistent accounts and was treated as hostile — weakens the 'order' chain.",
-        "Defense facts in dispute: whether regulation net-helped or net-harmed Bezeq; whether Walla coverage was favorable.",
+        "ההרכב עצמו רמז כי סעיף השוחד 'קשה להוכחה' ושקל את הסרתו.",
+        "עד המדינה פילבר מסר גרסאות סותרות והוכרז עוין — מחליש את שרשרת ה'הוראה'.",
+        "במחלוקת עובדתית: האם הרגולציה היטיבה או הזיקה לבזק; והאם הסיקור בוואלה היה אוהד.",
       ],
       falsifiers: [
-        "If the panel credits Hefetz + Yeshua on directed coverage AND finds net regulatory benefit, the bribery band rises.",
+        "אם ההרכב יאמין לחפץ ולישועה על סיקור מוכוון ויקבע תועלת רגולטורית נטו — רצועת השוחד עולה.",
       ],
     },
     {
-      id: "1000",
-      title: "Case 1000 — Gifts (Milchan / Packer)",
-      charge: "Fraud + breach of trust",
+      title: "תיק 1000 — מתנות (מילצ'ן / פאקר)",
+      charge: "מרמה + הפרת אמונים",
       bands: [
-        { outcome: "Conviction (breach of trust)", level: "Moderate", pct: 45 },
-        { outcome: "Partial / mixed finding", level: "Moderate", pct: 30 },
-        { outcome: "Acquittal", level: "Moderate", pct: 25 },
+        { outcome: "הרשעה (הפרת אמונים)", level: "Moderate", pct: 45 },
+        { outcome: "ממצא חלקי / מעורב", level: "Moderate", pct: 30 },
+        { outcome: "זיכוי", level: "Moderate", pct: 25 },
       ],
       drivers: [
-        "Hadas Klein testimony (incessant, requested supply) cuts against the 'gifts between friends' defense.",
-        "Turns on whether the gift stream is tradeably linked to specific official acts for Milchan.",
-        "Lower legal threshold than bribery (no quid-pro-quo required for breach of trust).",
+        "עדות הדס קליין (אספקה רציפה ומבוקשת) חותרת תחת הגנת 'מתנות בין חברים'.",
+        "תלוי אם זרם המתנות קשור בזיקה לפעולה שלטונית קונקרטית למען מילצ'ן.",
+        "רף משפטי נמוך יותר משוחד (אין דרישת 'תן וקח' להפרת אמונים).",
       ],
       falsifiers: [
-        "If the panel views the relationship as genuine friendship with no official-act nexus, the acquittal band rises.",
+        "אם ההרכב יראה ביחסים חברות אמיתית ללא זיקה לפעולה שלטונית — רצועת הזיכוי עולה.",
       ],
     },
     {
-      id: "2000",
-      title: "Case 2000 — Yedioth / Israel Hayom",
-      charge: "Fraud + breach of trust",
+      title: "תיק 2000 — ידיעות / ישראל היום",
+      charge: "מרמה + הפרת אמונים",
       bands: [
-        { outcome: "Conviction", level: "Lower", pct: 30 },
-        { outcome: "Acquittal", level: "Higher", pct: 50 },
-        { outcome: "Mixed / minor finding", level: "Moderate", pct: 20 },
+        { outcome: "הרשעה", level: "Lower", pct: 30 },
+        { outcome: "זיכוי", level: "Higher", pct: 50 },
+        { outcome: "ממצא מעורב / מינורי", level: "Moderate", pct: 20 },
       ],
       drivers: [
-        "The alleged Mozes arrangement was never implemented — weakens a completed-offense theory.",
-        "Hinges on whether inconclusive negotiations alone meet the breach-of-trust standard.",
-        "Defense: Netanyahu says he opposed and acted to stop the Israel Hayom bill.",
+        "ההסדר הנטען עם מוזס מעולם לא יושם — מחליש עבירה מושלמת.",
+        "תלוי אם משא ומתן בלתי-גמור לבדו עומד ברף הפרת האמונים.",
+        "הגנה: נתניהו טוען שהתנגד ופעל לעצור את 'חוק ישראל היום'.",
       ],
       falsifiers: [
-        "If the panel treats the negotiation itself as the breach, the conviction band rises.",
+        "אם ההרכב יראה במשא ומתן עצמו את ההפרה — רצועת ההרשעה עולה.",
       ],
     },
   ],
   schedule: [
-    { label: "Defense re-examination of other witnesses", when: "2026 H2" },
-    { label: "Closing summations", when: "≈ 2026 H2 – 2027" },
-    { label: "Verdict drafted & delivered", when: "≈ 2027" },
-    { label: "Likely Supreme Court appeal (either side)", when: "2028–2030+" },
+    { label: "חקירה חוזרת של עדי הגנה", when: "מחצית ב׳ 2026" },
+    { label: "סיכומים", when: "≈ 2026 ב׳ – 2027" },
+    { label: "כתיבת הכרעת דין ומתן פסק", when: "≈ 2027" },
+    { label: "ערעור צפוי לבית המשפט העליון (כל צד)", when: "2028–2030+" },
   ],
 };
 
@@ -146,11 +139,11 @@ const caseCard = (c) => `
     <header><h3>${esc(c.title)}</h3><p class="charge">${esc(c.charge)}</p></header>
     ${c.bands.map(bandRow).join("")}
     <details open>
-      <summary>Drivers</summary>
+      <summary>מניעים</summary>
       <ul>${c.drivers.map((d) => `<li>${esc(d)}</li>`).join("")}</ul>
     </details>
     <details>
-      <summary>What would move it</summary>
+      <summary>מה ישנה את התמונה</summary>
       <ul>${c.falsifiers.map((d) => `<li>${esc(d)}</li>`).join("")}</ul>
     </details>
   </article>`;
@@ -169,7 +162,8 @@ const svgBars = (entries, label) => {
         <text x="${170 + w + 6}" y="${y + 16}" class="bn">${n}</text>`;
     })
     .join("");
-  return `<svg viewBox="0 0 520 ${h}" role="img" aria-label="${esc(label)}" class="chart">${bars}</svg>`;
+  // dir=ltr so the bar chart reads naturally inside the RTL page
+  return `<svg dir="ltr" viewBox="0 0 520 ${h}" role="img" aria-label="${esc(label)}" class="chart">${bars}</svg>`;
 };
 
 const timelineRows = (rows) => {
@@ -181,6 +175,7 @@ const timelineRows = (rows) => {
       pub: r.seed.publication,
       url: r.seed.url,
       case: r.seed.case,
+      he: r.seed.lang === "he",
     }))
     .sort((a, b) => a.date.localeCompare(b.date));
   return dated
@@ -188,9 +183,9 @@ const timelineRows = (rows) => {
       (d) => `
       <li>
         <span class="tl-date">${esc(d.date)}</span>
-        <span class="tl-case c-${esc(d.case)}">${d.case === "all" ? "proc" : d.case}</span>
+        <span class="tl-case c-${esc(d.case)}">${d.case === "all" ? "כללי" : d.case}</span>
         <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>
-        <span class="tl-pub">${esc(d.pub)}</span>
+        <span class="tl-pub">${d.he ? "🇮🇱 " : ""}${esc(d.pub)}</span>
       </li>`
     )
     .join("");
@@ -199,6 +194,7 @@ const timelineRows = (rows) => {
 const page = (manifest) => {
   const rows = manifest.rows;
   const ok = rows.filter((r) => r.ok);
+  const heCount = ok.filter((r) => r.seed.lang === "he").length;
   const byCase = countBy(ok, (r) => CASE_LABEL[r.seed.case] || r.seed.case);
   const byPhaseRaw = countBy(ok, (r) => r.seed.phase);
   const byPhase = PHASE_ORDER.filter((p) => byPhaseRaw[p]).map((p) => [
@@ -209,33 +205,33 @@ const page = (manifest) => {
   const gen = manifest.generatedAt?.slice(0, 10) || PROJECTIONS.asOf;
 
   return `<!doctype html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Netanyahu Trial — Agentic Analysis Dashboard</title>
-<meta name="description" content="Agentic AI pipeline analysis and scenario projections over the public record of the Netanyahu corruption trial. Sourced reporting, not transcripts; scenarios, not a verdict." />
+<title>האם נתניהו אשם? — ניתוח אג'נטי ותחזיות</title>
+<meta name="description" content="ניתוח של צינור AI אג'נטי ותחזיות תרחיש מעל הרשומה הפומבית של משפט נתניהו. דיווח ממוקר, לא תמלילים; תרחישים, לא הכרעת דין." />
 <style>
   :root{
     --bg:#0e1116;--panel:#161b22;--panel2:#1c232d;--ink:#e6edf3;--mut:#8b98a5;
     --line:#283039;--accent:#4d8af0;--warn:#c89b3c;
     --c1000:#7e57c2;--c2000:#26a69a;--c4000:#ef6c4d;--call:#5b6b7a;
-    --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    --font:"Heebo","Assistant",-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
     --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.5}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.6}
   a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
   .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
   header.hero{padding:56px 0 28px;border-bottom:1px solid var(--line)}
-  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
-  h1{font-size:34px;margin:10px 0 8px;line-height:1.15}
-  .sub{color:var(--mut);max-width:70ch}
-  .banner{margin:22px 0 0;background:#241d10;border:1px solid #4a3c18;border-left:3px solid var(--warn);
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--accent)}
+  h1{font-size:36px;margin:10px 0 8px;line-height:1.2}
+  .sub{color:var(--mut);max-width:72ch}
+  .banner{margin:22px 0 0;background:#241d10;border:1px solid #4a3c18;border-right:3px solid var(--warn);
     padding:12px 16px;border-radius:8px;color:#e9d9b0;font-size:14px}
   .banner b{color:#f2e2b8}
   section{padding:38px 0;border-bottom:1px solid var(--line)}
-  h2{font-size:13px;font-family:var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:0 0 18px}
+  h2{font-size:14px;font-family:var(--mono);letter-spacing:.04em;color:var(--mut);margin:0 0 18px}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
   .card .n{font-size:30px;font-weight:700}
@@ -244,16 +240,15 @@ const page = (manifest) => {
   @media(max-width:760px){.grid2{grid-template-columns:1fr}}
   .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px}
   .panel h3{margin:0 0 12px;font-size:15px}
+  .chart{direction:ltr}
   .chart .bl{fill:var(--ink);font-size:12px;font-family:var(--font)}
   .chart .bn{fill:var(--mut);font-size:12px;font-family:var(--mono)}
   .chart .bar{fill:var(--accent);opacity:.85}
-  /* pipeline */
   .flow{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
   .step{flex:1 1 150px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
   .step .si{font-family:var(--mono);font-size:11px;color:var(--accent)}
   .step .st{font-weight:600;margin:6px 0 4px;font-size:14px}
   .step .sd{color:var(--mut);font-size:12.5px}
-  /* projections */
   .projs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
   .proj{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
   .proj h3{margin:0 0 2px;font-size:16px}
@@ -264,34 +259,29 @@ const page = (manifest) => {
   .band-track{height:8px;background:var(--panel2);border-radius:5px;overflow:hidden}
   .band-fill{height:100%}
   .proj details{margin-top:12px;border-top:1px solid var(--line);padding-top:8px}
-  .proj summary{cursor:pointer;font-size:12px;color:var(--mut);font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em}
-  .proj ul{margin:8px 0 0;padding-left:18px}.proj li{font-size:13px;margin:5px 0;color:#cdd6df}
-  /* schedule */
+  .proj summary{cursor:pointer;font-size:12px;color:var(--mut);font-family:var(--mono)}
+  .proj ul{margin:8px 0 0;padding-right:18px}.proj li{font-size:13px;margin:5px 0;color:#cdd6df}
   .sched{list-style:none;padding:0;margin:0}
   .sched li{display:flex;gap:14px;padding:10px 0;border-bottom:1px dashed var(--line)}
-  .sched .w{font-family:var(--mono);color:var(--warn);min-width:140px;font-size:13px}
-  /* timeline */
+  .sched .w{font-family:var(--mono);color:var(--warn);min-width:150px;font-size:13px}
   .tl{list-style:none;padding:0;margin:0;max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:10px}
-  .tl li{display:grid;grid-template-columns:96px 50px 1fr auto;gap:10px;align-items:center;
+  .tl li{display:grid;grid-template-columns:96px 54px 1fr auto;gap:10px;align-items:center;
     padding:9px 14px;border-bottom:1px solid var(--line);font-size:13px}
   .tl li:last-child{border-bottom:0}
-  .tl-date{font-family:var(--mono);color:var(--mut)}
-  .tl-pub{color:var(--mut);font-size:11.5px;text-align:right}
-  .tl-case{font-family:var(--mono);font-size:10px;text-transform:uppercase;text-align:center;
-    border-radius:4px;padding:2px 4px;color:#0e1116;font-weight:700}
+  .tl-date{font-family:var(--mono);color:var(--mut);direction:ltr;text-align:right}
+  .tl-pub{color:var(--mut);font-size:11.5px;text-align:left}
+  .tl-case{font-family:var(--mono);font-size:10px;text-align:center;border-radius:4px;padding:2px 4px;color:#0e1116;font-weight:700}
   .c-1000{background:var(--c1000)}.c-2000{background:var(--c2000)}.c-4000{background:var(--c4000)}.c-all{background:var(--call);color:#dfe6ee}
-  ul.plain{padding-left:18px}ul.plain li{margin:7px 0;color:#cdd6df;font-size:14px}
+  ul.plain{padding-right:18px}ul.plain li{margin:7px 0;color:#cdd6df;font-size:14px}
   footer{padding:34px 0 60px;color:var(--mut);font-size:13px}
   .pill{display:inline-block;font-family:var(--mono);font-size:11px;color:var(--mut);
-    border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin:0 6px 6px 0}
-  /* bottom line */
-  .bl-panel{border-left:3px solid var(--accent)}
+    border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin:0 0 6px 6px}
+  .bl-panel{border-right:3px solid var(--accent)}
   .bl-panel p{font-size:15px;color:#dbe3ec}
-  .bl-list{margin:14px 0;padding-left:20px}
+  .bl-list{margin:14px 0;padding-right:20px}
   .bl-list li{font-size:14.5px;margin:10px 0;color:#cdd6df}
   .bl-net{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
   .bl-caveat{color:var(--mut);font-size:13px;border-top:1px solid var(--line);padding-top:12px;margin-top:14px}
-  /* poll */
   .poll h3{font-size:16px}
   .poll-btns{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 4px}
   .poll-btns button{flex:1 1 180px;background:var(--panel2);color:var(--ink);border:1px solid var(--line);
@@ -299,11 +289,11 @@ const page = (manifest) => {
   .poll-btns button:hover{border-color:var(--accent);background:#222b36}
   .poll-btns button.picked{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
   .poll-results{margin-top:8px}
-  .pr-row{display:grid;grid-template-columns:130px 1fr 48px;gap:10px;align-items:center;margin:9px 0}
+  .pr-row{display:grid;grid-template-columns:130px 1fr 78px;gap:10px;align-items:center;margin:9px 0}
   .pr-l{font-size:13px;color:#cdd6df}
-  .pr-track{height:12px;background:var(--panel2);border-radius:7px;overflow:hidden}
+  .pr-track{height:12px;background:var(--panel2);border-radius:7px;overflow:hidden;direction:ltr}
   .pr-fill{height:100%;width:0;background:var(--accent);transition:width .4s ease}
-  .pr-n{font-family:var(--mono);font-size:13px;color:var(--mut);text-align:right}
+  .pr-n{font-family:var(--mono);font-size:13px;color:var(--mut);text-align:left;direction:ltr}
   .poll-total{margin:14px 0 0;color:var(--mut);font-size:13px}
   .linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;font-size:13px;padding:0}
   .linkbtn:hover{text-decoration:underline}
@@ -311,137 +301,124 @@ const page = (manifest) => {
 </head>
 <body>
 <header class="hero"><div class="wrap">
-  <div class="kicker">Agentic AI · Reported-Record Pipeline</div>
-  <h1>Netanyahu Corruption Trial — Analysis &amp; Scenario Projections</h1>
-  <p class="sub">An autonomous research pipeline assembled, deduplicated, and dated a corpus of public
-  reporting across the trial's full arc — three cases, five key witnesses, every phase. This dashboard
-  summarises that corpus and renders <b>scenario projections</b> over the public record.</p>
+  <div class="kicker">AI אג'נטי · צינור רשומה-מדווחת</div>
+  <h1>האם נתניהו אשם? — ניתוח ותחזיות תרחיש</h1>
+  <p class="sub">צינור מחקר אוטונומי אסף, ניקה כפילויות ותיארך קורפוס של דיווח פומבי לאורך כל מהלך
+  המשפט — שלושה תיקים, חמישה עדי מפתח, כל שלב, ובמקורות עברית ואנגלית כאחד. לוח המחוונים מסכם את
+  הקורפוס ומציג <b>תחזיות תרחיש</b> מעל הרשומה הפומבית.</p>
   <div class="banner">
-    <b>What this is — and isn't.</b> Built from <b>public news reporting</b>, not court transcripts
-    (no verbatim transcript exists publicly). The projections below are <b>analytical scenario
-    likelihoods with stated drivers</b> — <b>not</b> a guilt verdict and <b>not</b> a prediction of the
-    three-judge panel's ruling. The court has not ruled; a verdict is not expected before 2027.
+    <b>מה זה — ומה לא.</b> נבנה מ<b>דיווח עיתונאי פומבי</b>, לא מתמלילי בית משפט (אין תמליל מילולי פומבי).
+    התחזיות להלן הן <b>הערכות סבירוּת אנליטיות עם מניעים מוצהרים</b> — <b>לא</b> הכרעת אשמה ו<b>לא</b> ניבוי
+    של החלטת ההרכב. בית המשפט טרם הכריע; הכרעת דין אינה צפויה לפני 2027. נתניהו בחזקת חף מפשע.
   </div>
 </div></header>
 
 <section><div class="wrap">
-  <h2>Corpus at a glance</h2>
+  <h2>קורפוס במבט</h2>
   <div class="cards">
-    <div class="card"><div class="n">${ok.length}</div><div class="l">sourced entries (reachable)</div></div>
-    <div class="card"><div class="n">${rows.length}</div><div class="l">seeds curated</div></div>
-    <div class="card"><div class="n">${Object.keys(pubs).length}</div><div class="l">distinct outlets</div></div>
-    <div class="card"><div class="n">3</div><div class="l">cases covered</div></div>
-    <div class="card"><div class="n">5</div><div class="l">key witnesses</div></div>
-    <div class="card"><div class="n">${gen}</div><div class="l">generated</div></div>
+    <div class="card"><div class="n">${ok.length}</div><div class="l">רשומות ממוקרות (נגישות)</div></div>
+    <div class="card"><div class="n">${heCount}</div><div class="l">מקורות בעברית 🇮🇱</div></div>
+    <div class="card"><div class="n">${Object.keys(pubs).length}</div><div class="l">כלי תקשורת ייחודיים</div></div>
+    <div class="card"><div class="n">3</div><div class="l">תיקים מכוסים</div></div>
+    <div class="card"><div class="n">5</div><div class="l">עדי מפתח</div></div>
+    <div class="card"><div class="n" style="font-size:20px">${gen}</div><div class="l">עודכן</div></div>
   </div>
 </div></section>
 
 <section><div class="wrap">
-  <h2>The agentic pipeline</h2>
+  <h2>הצינור האג'נטי</h2>
   <div class="flow">
-    <div class="step"><div class="si">01</div><div class="st">Discover</div><div class="sd">Fan-out web searches across phases, cases, witnesses, dates.</div></div>
-    <div class="step"><div class="si">02</div><div class="st">Curate &amp; dedupe</div><div class="sd">Mainstream outlets only; opinion/aggregator/video excluded; URL-unique seeds.</div></div>
-    <div class="step"><div class="si">03</div><div class="st">Harvest</div><div class="sd">Metadata-only fetch (title, date, dek ≤14 words). No article body stored.</div></div>
-    <div class="step"><div class="si">04</div><div class="st">Structure</div><div class="sd">Group by phase &amp; case; back-fill dates from article metadata.</div></div>
-    <div class="step"><div class="si">05</div><div class="st">Project</div><div class="sd">Scenario bands with drivers + falsifiers. No verdict asserted.</div></div>
+    <div class="step"><div class="si">01</div><div class="st">גילוי</div><div class="sd">פיזור חיפושים ברשת לאורך שלבים, תיקים, עדים ותאריכים.</div></div>
+    <div class="step"><div class="si">02</div><div class="st">אצירה וניקוי כפילויות</div><div class="sd">מיינסטרים בלבד; דעה/אגרגטור/וידאו לא נכללים; זרעים ייחודיים.</div></div>
+    <div class="step"><div class="si">03</div><div class="st">קציר</div><div class="sd">שליפת מטא-דאטה בלבד (כותרת, תאריך, תקציר ≤14 מילים). ללא גוף הכתבה.</div></div>
+    <div class="step"><div class="si">04</div><div class="st">מבנה</div><div class="sd">קיבוץ לפי שלב ותיק; השלמת תאריכים ממטא-דאטה.</div></div>
+    <div class="step"><div class="si">05</div><div class="st">תחזית</div><div class="sd">רצועות תרחיש עם מניעים + מפריכים. ללא קביעת אשמה.</div></div>
   </div>
 </div></section>
 
 <section><div class="wrap">
-  <h2>Coverage</h2>
+  <h2>כיסוי</h2>
   <div class="grid2">
-    <div class="panel"><h3>By case</h3>${svgBars(Object.entries(byCase).sort((a, b) => b[1] - a[1]), "Entries by case")}</div>
-    <div class="panel"><h3>By phase</h3>${svgBars(byPhase, "Entries by phase")}</div>
+    <div class="panel"><h3>לפי תיק</h3>${svgBars(Object.entries(byCase).sort((a, b) => b[1] - a[1]), "רשומות לפי תיק")}</div>
+    <div class="panel"><h3>לפי שלב</h3>${svgBars(byPhase, "רשומות לפי שלב")}</div>
   </div>
 </div></section>
 
 <section><div class="wrap">
-  <h2>Scenario projections — by case</h2>
+  <h2>תחזיות תרחיש — לפי תיק</h2>
   <div class="projs">
     ${PROJECTIONS.cases.map(caseCard).join("")}
   </div>
-  <p class="sub" style="margin-top:16px">Bands are qualitative likelihood estimates over the public record,
-  normalised to 100% per case for readability. They encode <i>relative</i> plausibility and the reasoning
-  behind it — not numerical forecasts. Independent observers, including the trial judges, have publicly
-  flagged the Case 4000 bribery count as the hardest to prove; that is reflected above.</p>
+  <p class="sub" style="margin-top:16px">הרצועות הן הערכות סבירוּת איכותניות מעל הרשומה הפומבית, מנורמלות
+  ל-100% לכל תיק לשם קריאוּת. הן מבטאות סבירוּת <i>יחסית</i> ואת ההיגיון מאחוריה — לא תחזיות מספריות.
+  משקיפים עצמאיים, ובכללם שופטי ההרכב, סימנו בפומבי את סעיף השוחד בתיק 4000 כקשה ביותר להוכחה; הדבר משוקלל לעיל.</p>
 </div></section>
 
 <section><div class="wrap">
-  <h2>Projected procedural path</h2>
+  <h2>מסלול פרוצדורלי צפוי</h2>
   <ul class="sched">
     ${PROJECTIONS.schedule.map((s) => `<li><span class="w">${esc(s.when)}</span><span>${esc(s.label)}</span></li>`).join("")}
   </ul>
 </div></section>
 
-<section><div class="wrap">
-  <h2>Reported-record timeline <span class="pill">${ok.filter((r) => r.seed.date || r.published).length} dated entries</span></h2>
-  <ul class="tl">${timelineRows(rows)}</ul>
-</div></section>
-
 <section id="bottomline"><div class="wrap">
-  <h2>AI bottom line — my honest read</h2>
+  <h2>שורה תחתונה של ה-AI — הקריאה הכֵּנה שלי</h2>
   <div class="panel bl-panel">
-    <p>You asked me, as an AI, what I think — guilty or not. Straight answer: I won't brand a living
-    person <b>guilty</b> as fact. The three-judge panel has the full evidentiary file and has not ruled;
-    I have only public reporting. But you asked for my read, not a dodge — so here it is, per count, with
-    the uncertainty kept honest:</p>
+    <p>שאלתם אותי, כ-AI, מה דעתי — אשם או לא. תשובה ישירה: לא אכריז על אדם חי <b>אשם</b> כעובדה. ההרכב
+    מחזיק בתיק הראיות המלא וטרם הכריע; בידיי דיווח פומבי בלבד. אבל ביקשתם קריאה, לא התחמקות — אז הנה,
+    לפי תיק, עם אי-הוודאות שמורה:</p>
     <ul class="bl-list">
-      <li><b>Case 4000 (bribery — Bezeq/Walla):</b> I lean it <b>falls short of bribery as charged.</b>
-      The "take" (favorable Walla coverage) and the corrupt link are genuinely contested, the key insider
-      Filber turned shaky and hostile, and the trial judges themselves flagged this count as hard to
-      prove. More likely reduced to breach of trust than a standing bribery conviction.</li>
-      <li><b>Case 1000 (gifts — Milchan/Packer):</b> this is where I lean <b>toward a conviction</b>
-      (breach of trust). Hadas Klein's account of a steady, <i>requested</i> supply of luxury goods is hard
-      to square with the "just friends" defense.</li>
-      <li><b>Case 2000 (Yedioth):</b> I lean <b>acquittal</b> — the alleged arrangement was never
-      executed; weakest of the three.</li>
+      <li><b>תיק 4000 (שוחד — בזק/וואלה):</b> נוטה ל<b>נפילה מתחת לרף השוחד כפי שהואשם.</b> ה'קח'
+      (סיקור אוהד בוואלה) והזיקה השחיתותית שנויים במחלוקת אמיתית, עד המדינה פילבר התערער והוכרז עוין,
+      והשופטים עצמם סימנו את הסעיף כקשה להוכחה. סביר יותר המרה להפרת אמונים מאשר הרשעת שוחד עומדת.</li>
+      <li><b>תיק 1000 (מתנות — מילצ'ן/פאקר):</b> כאן אני נוטה <b>לעבר הרשעה</b> (הפרת אמונים). עדות הדס
+      קליין על אספקה רציפה ו<i>מבוקשת</i> של מותרות קשה ליישוב עם הגנת 'סתם חברים'.</li>
+      <li><b>תיק 2000 (ידיעות):</b> נוטה ל<b>זיכוי</b> — ההסדר הנטען מעולם לא יושם; החלש מבין השלושה.</li>
     </ul>
-    <p class="bl-net"><b>Net lean:</b> more likely than not that he is convicted on <b>at least one lesser
-    count</b> (breach of trust, most plausibly in Case 1000), while the headline <b>bribery</b> charge
-    probably does <b>not</b> survive as charged. Not a clean exoneration — but probably not the maximal
-    bribery conviction the indictment seeks either.</p>
-    <p class="bl-caveat">This is analysis over <i>incomplete public reporting</i> — a reasoned lean, not a
-    verdict, not certainty, and it does not override the presumption of innocence. The court decides.</p>
+    <p class="bl-net"><b>נטייה נטו:</b> סביר יותר מאשר לא שיורשע ב<b>סעיף קל אחד לפחות</b> (הפרת אמונים,
+    בסבירות הגבוהה ביותר בתיק 1000), בעוד סעיף ה<b>שוחד</b> הראשי כנראה <b>לא</b> ישרוד כפי שהואשם. לא
+    זיכוי נקי — אך כנראה גם לא הרשעת השוחד המקסימלית שכתב האישום מבקש.</p>
+    <p class="bl-caveat">זהו ניתוח מעל <i>דיווח פומבי חלקי</i> — נטייה מנומקת, לא הכרעת דין, לא ודאות, והוא
+    אינו גובר על חזקת החפות. בית המשפט מכריע.</p>
   </div>
 </div></section>
 
 <section id="poll"><div class="wrap">
-  <h2>Your read — opinion poll</h2>
+  <h2>הקריאה שלך — סקר דעה</h2>
   <div class="panel poll">
-    <h3>Based on this analysis, what's your read on the charges?</h3>
-    <p class="sub" style="margin:0 0 16px">An <b>opinion</b> poll — not a verdict, not a legal determination.
-    Netanyahu is presumed innocent and the three-judge panel has not ruled. Votes are stored
-    <b>in your own browser</b> (this is a static site with no shared server), so the tally reflects
-    this device only.</p>
+    <h3>לפי הניתוח הזה, מה הקריאה שלך לגבי האישומים?</h3>
+    <p class="sub" style="margin:0 0 16px">סקר <b>דעה</b> — לא הכרעת דין ולא קביעה משפטית. נתניהו בחזקת חף
+    מפשע וההרכב טרם הכריע. הקולות נשמרים <b>בדפדפן שלך בלבד</b> (זהו אתר סטטי ללא שרת משותף), כך שהמניין
+    משקף מכשיר זה בלבד.</p>
     <div class="poll-btns" id="pollBtns">
-      <button data-vote="guilty">Leans guilty</button>
-      <button data-vote="not_guilty">Leans not guilty</button>
-      <button data-vote="too_close">Too close to call</button>
+      <button data-vote="guilty">נוטה לאשם</button>
+      <button data-vote="not_guilty">נוטה לחף מפשע</button>
+      <button data-vote="too_close">קשה להכריע</button>
     </div>
     <div class="poll-results" id="pollResults" hidden>
-      <div class="pr-row"><span class="pr-l">Leans guilty</span><div class="pr-track"><div class="pr-fill" data-k="guilty"></div></div><span class="pr-n" data-n="guilty">0%</span></div>
-      <div class="pr-row"><span class="pr-l">Leans not guilty</span><div class="pr-track"><div class="pr-fill" data-k="not_guilty"></div></div><span class="pr-n" data-n="not_guilty">0%</span></div>
-      <div class="pr-row"><span class="pr-l">Too close to call</span><div class="pr-track"><div class="pr-fill" data-k="too_close"></div></div><span class="pr-n" data-n="too_close">0%</span></div>
-      <p class="poll-total">Total votes on this device: <b id="pollTotal">0</b> · <button id="pollReset" class="linkbtn">reset / change vote</button></p>
+      <div class="pr-row"><span class="pr-l">נוטה לאשם</span><div class="pr-track"><div class="pr-fill" data-k="guilty"></div></div><span class="pr-n" data-n="guilty">0%</span></div>
+      <div class="pr-row"><span class="pr-l">נוטה לחף מפשע</span><div class="pr-track"><div class="pr-fill" data-k="not_guilty"></div></div><span class="pr-n" data-n="not_guilty">0%</span></div>
+      <div class="pr-row"><span class="pr-l">קשה להכריע</span><div class="pr-track"><div class="pr-fill" data-k="too_close"></div></div><span class="pr-n" data-n="too_close">0%</span></div>
+      <p class="poll-total">סך הקולות במכשיר זה: <b id="pollTotal">0</b> · <button id="pollReset" class="linkbtn">איפוס / שינוי הצבעה</button></p>
     </div>
   </div>
 </div></section>
 
 <section><div class="wrap">
-  <h2>Methodology &amp; limitations</h2>
+  <h2>מתודולוגיה ומגבלות</h2>
   <ul class="plain">
-    <li><b>Sources, not transcripts.</b> Israel publishes no verbatim trial transcripts; courtroom audio/video is barred. Every row links public reporting and is labelled as such.</li>
-    <li><b>Copyright-safe.</b> The harvester stores links + metadata + a sub-15-word publisher dek. No article body text is reproduced or stored.</li>
-    <li><b>Projections are scenarios.</b> Likelihood bands express relative plausibility with explicit drivers and falsifiers. They are not a verdict, not legal advice, and not a forecast of the panel's decision.</li>
-    <li><b>Outlet perspective.</b> Mainstream Israeli and international outlets carry editorial viewpoints; divergence is preserved, not resolved.</li>
-    <li><b>Reproducible.</b> <code>harvester/harvest.mjs</code> regenerates the corpus; <code>harvester/build-dashboard.mjs</code> regenerates this page.</li>
+    <li><b>מקורות, לא תמלילים.</b> ישראל אינה מפרסמת תמלילי משפט מילוליים; שידור/הקלטה מהאולם אסור. כל שורה מקשרת לדיווח פומבי ומסומנת ככזו.</li>
+    <li><b>בטוח-זכויות-יוצרים.</b> הקוצר שומר קישורים + מטא-דאטה + תקציר מו"ל מתחת ל-15 מילים. אין שעתוק או אחסון של גוף הכתבה.</li>
+    <li><b>התחזיות הן תרחישים.</b> רצועות הסבירוּת מבטאות סבירוּת יחסית עם מניעים ומפריכים מפורשים. לא הכרעת דין, לא ייעוץ משפטי, ולא ניבוי החלטת ההרכב.</li>
+    <li><b>נקודת מבט עיתונאית.</b> כלי תקשורת ישראליים ובינלאומיים נושאים השקפות מערכת; הבדלים נשמרים, לא מיושבים.</li>
+    <li><b>ניתן לשחזור.</b> <code>harvester/harvest.mjs</code> מייצר מחדש את הקורפוס; <code>harvester/build-dashboard.mjs</code> מייצר מחדש דף זה.</li>
   </ul>
 </div></section>
 
 <footer><div class="wrap">
-  Generated ${gen} from <code>data/manifest.json</code> ·
-  Repo: <a href="https://github.com/SaharBarak/netanyahu-trial-dossier">SaharBarak/netanyahu-trial-dossier</a> ·
-  Full dossier in <code>/docs</code>. Analytical research aid — not legal advice, not a verdict.
+  נוצר ${gen} מתוך <code>data/manifest.json</code> ·
+  מאגר: <a href="https://github.com/SaharBarak/netanyahu-trial-dossier">SaharBarak/netanyahu-trial-dossier</a> ·
+  התיק המלא ב-<code>/docs</code>. כלי מחקר אנליטי — לא ייעוץ משפטי, לא הכרעת דין.
 </div></footer>
 
 <script>
@@ -475,8 +452,8 @@ const page = (manifest) => {
     var b=e.target.closest("button[data-vote]"); if(!b) return;
     var choice=b.getAttribute("data-vote");
     var t=tally(), prev=read(LS_VOTE,null);
-    if(prev===choice) return;            // already this vote
-    if(prev && t[prev]>0) t[prev]--;      // moving vote: decrement old
+    if(prev===choice) return;
+    if(prev && t[prev]>0) t[prev]--;
     t[choice]++;
     write(LS_TALLY,t); write(LS_VOTE,choice);
     render();

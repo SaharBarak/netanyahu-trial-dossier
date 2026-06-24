@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T09:53:52.641Z",
+  "generatedAt": "2026-06-24T10:23:04.645Z",
   "stats": {
     "generatedAt": "2026-06-24",
-    "total": 74,
-    "ok": 71
+    "total": 100,
+    "ok": 91
   },
   "rows": [
     {
@@ -22,7 +22,7 @@
       "author": null,
       "snippet": "'The goal is to bring down a strong PM... and keep the right away …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:14.275Z"
+      "fetchedAt": "2026-06-24T10:14:47.457Z"
     },
     {
       "seed": {
@@ -40,7 +40,7 @@
       "author": null,
       "snippet": "Jerusalem District Court rejects media request to allow public live video feed of opening …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:17.000Z"
+      "fetchedAt": "2026-06-24T10:14:52.205Z"
     },
     {
       "seed": {
@@ -58,7 +58,7 @@
       "author": null,
       "snippet": "The initial witness list and evidentiary documents in the trial of Prime Minister Benjamin …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:19.532Z"
+      "fetchedAt": "2026-06-24T10:14:57.415Z"
     },
     {
       "seed": {
@@ -76,7 +76,7 @@
       "author": null,
       "snippet": "Ilan Yeshua, former CEO of Walla news, continues testimony in evidentiary phase of graft …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:22.756Z"
+      "fetchedAt": "2026-06-24T10:15:00.775Z"
     },
     {
       "seed": {
@@ -94,7 +94,7 @@
       "author": null,
       "snippet": "Former CEO of Walla news site appears in court again as evidentiary phase of …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:26.943Z"
+      "fetchedAt": "2026-06-24T10:15:05.620Z"
     },
     {
       "seed": {
@@ -112,7 +112,7 @@
       "author": null,
       "snippet": "Judges order that contents of relevant conversations by former Walla boss Ilan Yeshua and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:32.820Z"
+      "fetchedAt": "2026-06-24T10:15:10.479Z"
     },
     {
       "seed": {
@@ -130,7 +130,7 @@
       "author": null,
       "snippet": "Ilan Yeshua, former CEO of the Walla news site and a key prosecution witness …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:36.878Z"
+      "fetchedAt": "2026-06-24T10:15:15.308Z"
     },
     {
       "seed": {
@@ -148,7 +148,7 @@
       "author": null,
       "snippet": "Judges cancel several hearings to allow defense to prepare for cross-examination of ex-Walla CEO …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:41.026Z"
+      "fetchedAt": "2026-06-24T10:15:21.663Z"
     },
     {
       "seed": {
@@ -166,7 +166,7 @@
       "author": null,
       "snippet": "Following the end of Yeshua's testimony, the trial’s second witness, former Walla chief editor, …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:45.465Z"
+      "fetchedAt": "2026-06-24T10:15:26.780Z"
     },
     {
       "seed": {
@@ -184,7 +184,7 @@
       "author": null,
       "snippet": "Hadas Klein said billionaire tycoon James Packer was nervous about criminal probes into Netanyahu.",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:49.219Z"
+      "fetchedAt": "2026-06-24T10:15:32.185Z"
     },
     {
       "seed": {
@@ -202,7 +202,7 @@
       "author": null,
       "snippet": "Hadas Klein, aide to billionaires Arnon Milchan and James Packer, tells court about continuous …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:52.228Z"
+      "fetchedAt": "2026-06-24T10:15:35.375Z"
     },
     {
       "seed": {
@@ -220,7 +220,7 @@
       "author": null,
       "snippet": "Hadas Klein, on first day of cross-examination, rejects claims she hid evidence by throwing …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:48:56.587Z"
+      "fetchedAt": "2026-06-24T10:15:39.872Z"
     },
     {
       "seed": {
@@ -238,7 +238,7 @@
       "author": null,
       "snippet": "Hadas Klein says money from boss Arnon Milchan's petty cash went to satisfy demand …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:08.747Z"
+      "fetchedAt": "2026-06-24T10:15:44.467Z"
     },
     {
       "seed": {
@@ -249,14 +249,14 @@
         "theme": "Klein: Netanyahu vetoed Packer donation to Peres Center",
         "url": "https://www.timesofisrael.com/netanyahu-vetoed-large-donation-by-packer-to-peres-center-key-witness-tells-court/"
       },
-      "ok": true,
-      "status": 200,
-      "title": "Netanyahu vetoed large donation by Packer to Peres Center, key witness tells court",
-      "published": "2022-07-18",
+      "ok": false,
+      "status": 429,
+      "title": null,
+      "published": null,
       "author": null,
-      "snippet": "Former PM, a longtime political rival of late Shimon Peres, 'was very angry' upon …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:49:13.237Z"
+      "snippet": null,
+      "error": "HTTP 429",
+      "fetchedAt": "2026-06-24T10:15:49.299Z"
     },
     {
       "seed": {
@@ -274,7 +274,7 @@
       "author": null,
       "snippet": "Underlining alleged quid pro quo in Case 1000, Hadas Klein says ex-PM called Milchan …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:25.517Z"
+      "fetchedAt": "2026-06-24T10:16:01.428Z"
     },
     {
       "seed": {
@@ -292,7 +292,7 @@
       "author": null,
       "snippet": "Trial resumes after three week hiatus; driver Yonatan Hasson says '99%' of all high-end …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:30.018Z"
+      "fetchedAt": "2026-06-24T10:16:06.232Z"
     },
     {
       "seed": {
@@ -310,7 +310,7 @@
       "author": null,
       "snippet": "Klein was the assistant of Milchan at the time of the alleged bribery, she …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:37.099Z"
+      "fetchedAt": "2026-06-24T10:16:14.003Z"
     },
     {
       "seed": {
@@ -328,7 +328,7 @@
       "author": null,
       "snippet": "Two realities of the relationship between Milchan and Netanyahu were created by Klein and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:40.877Z"
+      "fetchedAt": "2026-06-24T10:16:17.210Z"
     },
     {
       "seed": {
@@ -346,7 +346,7 @@
       "author": null,
       "snippet": "Netanyahu trial star witness cross-examined after prosecution fails to expel press.",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:44.124Z"
+      "fetchedAt": "2026-06-24T10:16:21.002Z"
     },
     {
       "seed": {
@@ -364,7 +364,7 @@
       "author": null,
       "snippet": "During cross-examination, Nir Hefetz describes the 'vile' conditions of his detention that caused him …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:47.078Z"
+      "fetchedAt": "2026-06-24T10:16:24.242Z"
     },
     {
       "seed": {
@@ -382,7 +382,7 @@
       "author": null,
       "snippet": "Nir Hefetz says at cross-examination that former premier blamed all Israeli negative coverage on …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:51.531Z"
+      "fetchedAt": "2026-06-24T10:16:29.283Z"
     },
     {
       "seed": {
@@ -398,9 +398,9 @@
       "title": "Ex-Netanyahu aide got standard police treatment, witness says in corruption trial",
       "published": "2022-01-10",
       "author": null,
-      "snippet": "'Nothing was done that wasn’t done to other detainees in other cases,' says officer …",
+      "snippet": "'Nothing Was Done That Wasn’t Done to Other Detainees in Other Cases,' Says Officer …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:56.284Z"
+      "fetchedAt": "2026-06-24T10:16:34.001Z"
     },
     {
       "seed": {
@@ -418,7 +418,7 @@
       "author": null,
       "snippet": "State will instead cross-examine key witness Shlomo Filber after raising inconsistencies in his evidence; …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:49:59.986Z"
+      "fetchedAt": "2026-06-24T10:16:37.736Z"
     },
     {
       "seed": {
@@ -436,7 +436,7 @@
       "author": null,
       "snippet": "'There's something you're not saying,' prosecutor charges during cross examination of former Communications Ministry …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:02.526Z"
+      "fetchedAt": "2026-06-24T10:16:42.380Z"
     },
     {
       "seed": {
@@ -454,7 +454,7 @@
       "author": null,
       "snippet": "'One cannot erase a situation from one's brain,' Filber says, accusing police of manipulating …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:07.194Z"
+      "fetchedAt": "2026-06-24T10:16:47.086Z"
     },
     {
       "seed": {
@@ -472,7 +472,7 @@
       "author": null,
       "snippet": "This explosive development could change the entire nature of the media bribery and fraud …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:13.768Z"
+      "fetchedAt": "2026-06-24T10:16:52.052Z"
     },
     {
       "seed": {
@@ -490,7 +490,7 @@
       "author": null,
       "snippet": "Jonatan Urich, Ofer Golan and Yisrael Einhorn to be charged, pending hearing, for allegedly …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:18.545Z"
+      "fetchedAt": "2026-06-24T10:16:56.235Z"
     },
     {
       "seed": {
@@ -508,7 +508,7 @@
       "author": null,
       "snippet": "After judge says defense didn't present clear justification for postponing hearings, Netanyahu refiles request …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:23.146Z"
+      "fetchedAt": "2026-06-24T10:17:01.047Z"
     },
     {
       "seed": {
@@ -526,7 +526,7 @@
       "author": null,
       "snippet": "Corruption trial, in which PM is charged of bribery, fraud and breach of trust, …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:34.795Z"
+      "fetchedAt": "2026-06-24T10:17:06.184Z"
     },
     {
       "seed": {
@@ -544,7 +544,7 @@
       "author": null,
       "snippet": "At home, Netanyahu is on trial for accusations of fraud, breach of trust and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:42.523Z"
+      "fetchedAt": "2026-06-24T10:17:14.197Z"
     },
     {
       "seed": {
@@ -562,7 +562,7 @@
       "author": null,
       "snippet": "Allegations of fraud and bribery have trickled through the Israeli judiciary since 2020.",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:45.989Z"
+      "fetchedAt": "2026-06-24T10:17:18.267Z"
     },
     {
       "seed": {
@@ -580,7 +580,7 @@
       "author": null,
       "snippet": "On the second day of his testimony, PM acknowledges trying to change news site's …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:48.939Z"
+      "fetchedAt": "2026-06-24T10:17:21.770Z"
     },
     {
       "seed": {
@@ -598,7 +598,7 @@
       "author": null,
       "snippet": "Judges also weigh holding future hearings at Beit Shemesh courthouse instead of Tel Aviv, …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:51.492Z"
+      "fetchedAt": "2026-06-24T10:17:26.666Z"
     },
     {
       "seed": {
@@ -616,7 +616,7 @@
       "author": null,
       "snippet": "In light of war, hearings were reduced from three times a week to two …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:50:56.570Z"
+      "fetchedAt": "2026-06-24T10:17:31.874Z"
     },
     {
       "seed": {
@@ -634,7 +634,7 @@
       "author": null,
       "snippet": "Netanyahu's lawyers claim request for more court hours is unfairly creating difficulties for the …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:06.649Z"
+      "fetchedAt": "2026-06-24T10:17:36.872Z"
     },
     {
       "seed": {
@@ -652,7 +652,7 @@
       "author": null,
       "snippet": "PM tells court he's 'in the most difficult position in the world,' cannot attend …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:13.803Z"
+      "fetchedAt": "2026-06-24T10:17:45.017Z"
     },
     {
       "seed": {
@@ -670,7 +670,7 @@
       "author": null,
       "snippet": "Process may take a year to complete, after PM's questioning by defense attorney took …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:20.598Z"
+      "fetchedAt": "2026-06-24T10:17:52.971Z"
     },
     {
       "seed": {
@@ -688,7 +688,7 @@
       "author": null,
       "snippet": null,
       "error": "HTTP 403",
-      "fetchedAt": "2026-06-24T09:51:27.422Z"
+      "fetchedAt": "2026-06-24T10:17:57.674Z"
     },
     {
       "seed": {
@@ -706,7 +706,7 @@
       "author": null,
       "snippet": "Prosecution challenges PM on his relationship with Milchan and his police testimony, pointing to …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:37.577Z"
+      "fetchedAt": "2026-06-24T10:18:09.764Z"
     },
     {
       "seed": {
@@ -724,7 +724,7 @@
       "author": null,
       "snippet": "Case 4000 explores the Netanyahu's seeking favorable coverage in Israeli media, particularly their relationship …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:44.314Z"
+      "fetchedAt": "2026-06-24T10:18:14.469Z"
     },
     {
       "seed": {
@@ -742,7 +742,7 @@
       "author": null,
       "snippet": "Prosecutor Yehudit Tirosh presses Prime Minister Netanyahu in Case 4000, questioning his stance on …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:48.168Z"
+      "fetchedAt": "2026-06-24T10:18:17.669Z"
     },
     {
       "seed": {
@@ -760,7 +760,7 @@
       "author": null,
       "snippet": "The trial remains deep in the testimony phase in Cases 1000, 2000, and 4000, …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:51.526Z"
+      "fetchedAt": "2026-06-24T10:18:20.859Z"
     },
     {
       "seed": {
@@ -778,7 +778,7 @@
       "author": null,
       "snippet": "Prosecutor focuses on PM's concern with negative coverage of his wife when meeting with …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:54.777Z"
+      "fetchedAt": "2026-06-24T10:18:24.034Z"
     },
     {
       "seed": {
@@ -796,7 +796,7 @@
       "author": null,
       "snippet": "Testimony by Hefetz, portions of which were read in court, describes Netanyahu as the …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:51:57.325Z"
+      "fetchedAt": "2026-06-24T10:18:28.679Z"
     },
     {
       "seed": {
@@ -814,7 +814,7 @@
       "author": null,
       "snippet": "Prosecutors argue that while serving as communications minister, Netanyahu advanced regulatory decisions worth hundreds …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:00.091Z"
+      "fetchedAt": "2026-06-24T10:18:31.875Z"
     },
     {
       "seed": {
@@ -832,7 +832,7 @@
       "author": null,
       "snippet": "The Jerusalem District Court panel hearing the case was first asked to reschedule Tuesday’s …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:02.796Z"
+      "fetchedAt": "2026-06-24T10:18:35.057Z"
     },
     {
       "seed": {
@@ -850,7 +850,7 @@
       "author": null,
       "snippet": "Monday marked Netanyahu’s 70th day of testimony in his ongoing corruption trial and his …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:05.512Z"
+      "fetchedAt": "2026-06-24T10:18:38.279Z"
     },
     {
       "seed": {
@@ -868,7 +868,7 @@
       "author": null,
       "snippet": "Monday’s hearing focused on Netanyahu’s relationship with Shlomo Filber, whom he appointed as director-general …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:08.668Z"
+      "fetchedAt": "2026-06-24T10:18:41.481Z"
     },
     {
       "seed": {
@@ -886,7 +886,7 @@
       "author": null,
       "snippet": "Monday's accusation came during the Prime Minister's cross-examination. The PM has denied any wrongdoing …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:11.718Z"
+      "fetchedAt": "2026-06-24T10:18:46.631Z"
     },
     {
       "seed": {
@@ -904,7 +904,7 @@
       "author": null,
       "snippet": "Premier departs for consultation at IDF's Kirya HQ half-hour after hearing begins, after court …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:15.703Z"
+      "fetchedAt": "2026-06-24T10:18:50.516Z"
     },
     {
       "seed": {
@@ -922,7 +922,7 @@
       "author": null,
       "snippet": "Prosecution cross-examined Netanyahu on prior statements he had made about documentation he claimed to …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:19.930Z"
+      "fetchedAt": "2026-06-24T10:18:55.244Z"
     },
     {
       "seed": {
@@ -940,7 +940,7 @@
       "author": null,
       "snippet": "Prosecutors will now turn to Case 4000, after Monday's hearing on unrecorded meetings and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:23.587Z"
+      "fetchedAt": "2026-06-24T10:18:58.426Z"
     },
     {
       "seed": {
@@ -958,7 +958,7 @@
       "author": null,
       "snippet": "Netanyahu’s defense enters its final stretch, with Case 4000 concluding and prosecutors now tackling …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:26.162Z"
+      "fetchedAt": "2026-06-24T10:19:03.106Z"
     },
     {
       "seed": {
@@ -976,7 +976,7 @@
       "author": null,
       "snippet": "The hearing began with an announcement from presiding judges Rivka Friedman-Feldman, Moshe Bar-Am and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:29.149Z"
+      "fetchedAt": "2026-06-24T10:19:07.382Z"
     },
     {
       "seed": {
@@ -994,7 +994,7 @@
       "author": null,
       "snippet": "Netanyahu is charged in the case with fraud and breach of trust.",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:32.561Z"
+      "fetchedAt": "2026-06-24T10:19:10.976Z"
     },
     {
       "seed": {
@@ -1012,7 +1012,7 @@
       "author": null,
       "snippet": null,
       "error": "HTTP 403",
-      "fetchedAt": "2026-06-24T09:52:36.353Z"
+      "fetchedAt": "2026-06-24T10:19:14.772Z"
     },
     {
       "seed": {
@@ -1030,7 +1030,7 @@
       "author": null,
       "snippet": null,
       "error": "HTTP 403",
-      "fetchedAt": "2026-06-24T09:52:46.412Z"
+      "fetchedAt": "2026-06-24T10:19:26.825Z"
     },
     {
       "seed": {
@@ -1048,7 +1048,7 @@
       "author": null,
       "snippet": "The cross-examination section of the trial is in its final stretch. The hearings come …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:56.551Z"
+      "fetchedAt": "2026-06-24T10:19:38.887Z"
     },
     {
       "seed": {
@@ -1066,7 +1066,7 @@
       "author": null,
       "snippet": "Netanyahu’s corruption trial will resume Sunday after weeks of war-related court disruptions, returning to …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:52:59.492Z"
+      "fetchedAt": "2026-06-24T10:19:43.036Z"
     },
     {
       "seed": {
@@ -1084,7 +1084,7 @@
       "author": null,
       "snippet": "Questioning continued by prosecutor Yehudit Tirosh on Case 4000, the Bezeq-Walla affair, where Netanyahu …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:02.690Z"
+      "fetchedAt": "2026-06-24T10:19:46.645Z"
     },
     {
       "seed": {
@@ -1102,7 +1102,7 @@
       "author": null,
       "snippet": "Judge nixes hearing after PM's lawyers hand over envelope detailing reason for request; prosecution …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:08.367Z"
+      "fetchedAt": "2026-06-24T10:19:49.843Z"
     },
     {
       "seed": {
@@ -1120,7 +1120,7 @@
       "author": null,
       "snippet": "Prime minister often asks to truncate the hearings, which occur four times a week, …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:12.888Z"
+      "fetchedAt": "2026-06-24T10:19:54.528Z"
     },
     {
       "seed": {
@@ -1138,7 +1138,7 @@
       "author": null,
       "snippet": "Netanyahu Is Nearing the End of Cross-examination in Case 4000 as Court Hearings Have …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:17.690Z"
+      "fetchedAt": "2026-06-24T10:19:59.303Z"
     },
     {
       "seed": {
@@ -1156,7 +1156,7 @@
       "author": null,
       "snippet": "Netanyahu's testimony in his graft trial was also canceled last week, after the Iran …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:20.327Z"
+      "fetchedAt": "2026-06-24T10:20:02.444Z"
     },
     {
       "seed": {
@@ -1174,7 +1174,7 @@
       "author": "Netael Bandel",
       "snippet": "Judges order the trial to run four days a week, dedicating almost all of …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:22.958Z"
+      "fetchedAt": "2026-06-24T10:20:05.583Z"
     },
     {
       "seed": {
@@ -1192,7 +1192,7 @@
       "author": null,
       "snippet": "Judges agree to end hearing in Case 2000 two hours early after PM's team …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:26.728Z"
+      "fetchedAt": "2026-06-24T10:20:09.846Z"
     },
     {
       "seed": {
@@ -1210,7 +1210,7 @@
       "author": null,
       "snippet": "The Israeli prime minister is expected to take the stand for several more days …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:30.751Z"
+      "fetchedAt": "2026-06-24T10:20:12.932Z"
     },
     {
       "seed": {
@@ -1228,7 +1228,7 @@
       "author": null,
       "snippet": "Netanyahu said prosecutors had caused him to give answers that could be portrayed as …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:34.585Z"
+      "fetchedAt": "2026-06-24T10:20:17.333Z"
     },
     {
       "seed": {
@@ -1246,7 +1246,7 @@
       "author": null,
       "snippet": "Traveling between the courthouse, security briefings, and a frayed coalition, Netanyahu attended 98 testimonies …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:37.603Z"
+      "fetchedAt": "2026-06-24T10:20:20.568Z"
     },
     {
       "seed": {
@@ -1264,7 +1264,7 @@
       "author": null,
       "snippet": "PM claims people likened his prosecutors to the 'Stasi' as state attorney scrutinizes Netanyahu's …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:40.275Z"
+      "fetchedAt": "2026-06-24T10:20:23.839Z"
     },
     {
       "seed": {
@@ -1282,7 +1282,7 @@
       "author": null,
       "snippet": "Justices issue official record of contents of meeting, note that the state's representative rejected …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:42.808Z"
+      "fetchedAt": "2026-06-24T10:20:27.016Z"
     },
     {
       "seed": {
@@ -1300,7 +1300,7 @@
       "author": null,
       "snippet": "Credibility of state’s key witness Shlomo Filber is on the rocks after the defense …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:45.357Z"
+      "fetchedAt": "2026-06-24T10:20:34.748Z"
     },
     {
       "seed": {
@@ -1318,7 +1318,7 @@
       "author": "Miles Parks",
       "snippet": "Israeli PM Netanyahu seeks to end his corruption trial through a presidential pardon while …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:47.953Z"
+      "fetchedAt": "2026-06-24T10:20:39.617Z"
     },
     {
       "seed": {
@@ -1336,7 +1336,501 @@
       "author": null,
       "snippet": "In meeting with ex-Supreme Court chief Aharon Barak, premier's lawyer suggested accepting conviction on …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:53:51.116Z"
+      "fetchedAt": "2026-06-24T10:20:43.779Z"
+    },
+    {
+      "seed": {
+        "date": "2026-06-24",
+        "lang": "he",
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "הארץ",
+        "theme": "אחרי 98 דיונים הסתיימה עדות רה\"מ; 'עשור של גיהינום'",
+        "url": "https://www.haaretz.co.il/news/law/netanyahutrial/2026-06-24/ty-article/0000019e-f8ae-d4c5-a9fe-fdeea6640000"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "אחרי שנה וחצי הסתיימה עדות רה\"מ בתיקי האלפים; נתניהו: עשור של גיהינום",
+      "published": "2026-06-24",
+      "author": null,
+      "snippet": "חקירתו הנגדית של נתניהו הסתיימה בשבוע שעבר, ומאז היו דיונים נוספים לצורך חקירה חוזרת …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:20:48.664Z"
+    },
+    {
+      "seed": {
+        "date": "2026-06-24",
+        "lang": "he",
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "ynet",
+        "theme": "אחרי 98 דיונים, הסתיימה עדות נתניהו: '10 שנים של גיהינום'",
+        "url": "https://www.ynet.co.il/news/article/rkdqkzyggg"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "אחרי 98 דיונים, הסתיימה עדות נתניהו במשפטו: \"10 שנים של גיהינום\"",
+      "published": "2026-06-24",
+      "author": "נטעאל בנדל",
+      "snippet": "שנה וחצי אחרי שהחלה עדותו, האשים ראש הממשלה בבית המשפט: \"חוויתי גיהינום, הדבר הנבזי …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:20:52.032Z"
+    },
+    {
+      "seed": {
+        "date": "2026-06-16",
+        "lang": "he",
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "הארץ",
+        "theme": "אחרי כשנה, הסתיימה החקירה הנגדית של נתניהו",
+        "url": "https://www.haaretz.co.il/news/law/netanyahutrial/2026-06-16/ty-article/0000019e-d033-d992-a1fe-f13350130000"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "אחרי כשנה, הסתיימה החקירה הנגדית של נתניהו בתיקי האלפים",
+      "published": "2026-06-16",
+      "author": null,
+      "snippet": "ראש הממשלה צפוי להיחקר בידי ההגנה במשך כארבעה דיונים נוספים, ולאחר מכן צפויה להסתיים …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:20:55.352Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "ynet",
+        "theme": "אחרי 94 ימי דיונים: הסתיימה החקירה הנגדית של נתניהו",
+        "url": "https://www.ynet.co.il/news/article/hjbhsjr11gx"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "אחרי 94 ימי דיונים: הסתיימה החקירה הנגדית של נתניהו במשפטו",
+      "published": "2026-06-16",
+      "author": "נטעאל בנדל",
+      "snippet": "בימיה האחרונים של החקירה הנגדית עסקה התביעה בתיק 2000, שבו נאשם גם נוני מוזס. …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:20:58.531Z"
+    },
+    {
+      "seed": {
+        "date": "2026-06-21",
+        "lang": "he",
+        "phase": "analysis",
+        "case": "4000",
+        "publication": "TheMarker",
+        "theme": "התיק לא קרס: התביעה מובילה בנקודות בתיק השוחד",
+        "url": "https://www.themarker.com/law/2026-06-21/ty-article-magazine/.premium/0000019e-e474-d698-adbf-e57612b50000"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "התיק לא קרס: בתום עדות נתניהו, התביעה מובילה בנקודות בתיק השוחד",
+      "published": "2026-06-21",
+      "author": null,
+      "snippet": "האם יחסי נתניהו עם שאול אלוביץ' היו חברות תועלתנית, או עסקת שוחד? ■ אחרי …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:02.453Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "N12",
+        "theme": "הסתיימה החקירה בתיק 4000 והחלה בתיק 2000",
+        "url": "https://www.mako.co.il/news-law/2026_q2/Article-0f712f6897b1e91026.htm"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "עדות נתניהו: הסתיימה החקירה בתיק 4000 והחלה בתיק 2000",
+      "published": "2026-05-12",
+      "author": "איתם אלמדון, יעל יפה",
+      "snippet": "אחרי חצי שנה של עיכובים, החלה החקירה הנגדית של רה\"מ נתניהו בתיק 2000. תיק …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:05.907Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "A-direct",
+        "case": "4000",
+        "publication": "ynet",
+        "theme": "יום עדות שלישי: תיק 4000 וההטבות לבזק",
+        "url": "https://www.ynet.co.il/news/article/h1yd11ih4kg"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "נתניהו יעלה ליום העדות השלישי: במוקד - תיק 4000 וההטבות שהעניק לכאורה לבזק",
+      "published": "2024-12-15",
+      "author": "נטעאל בנדל",
+      "snippet": "רה״מ יתייצב בבית המשפט המחוזי בת״א לעדות נוספת במשפטו הפלילי, שתעסוק בתיק 4000 בו …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:09.491Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "ynet",
+        "theme": "החקירה הנגדית מתחילה; הפרקליטות תנסה 'להציל' את סעיף השוחד",
+        "url": "https://www.ynet.co.il/news/article/rje59ximel"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "החקירה הנגדית של נתניהו מתחילה, הפרקליטות תנסה \"להציל\" את סעיף השוחד",
+      "published": "2025-06-02",
+      "author": "נטעאל בנדל",
+      "snippet": "אחרי כמעט חצי שנה שבה נחקר על-ידי סנגורו, החקירה הנגדית של רה\"מ יוצאת לדרך …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:13.805Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "A-direct",
+        "case": "4000",
+        "publication": "מעריב",
+        "theme": "ארבעה ימי דיונים — לקראת סיום בתיק 4000",
+        "url": "https://www.maariv.co.il/news/law/article-1282044"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "לאחר 80 ימי דיונים: התביעה מכוונת לסיום חקירת נתניהו בתיק בזק-וואלה",
+      "published": null,
+      "author": null,
+      "snippet": "משפט ראש הממשלה בנימין נתניהו: בתחילת השבוע החוקר יורם נעמן ימשיך להעיד מטעם ההגנה. …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:17.961Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "מעריב",
+        "theme": "השופטים דחו בקשה לקיצור הדיון מסיבות ביטחוניות",
+        "url": "https://www.maariv.co.il/news/law/article-1315270"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "בית המשפט סירב לקצר את הדיון - ואז נתניהו שלף את שובר השוויון שלו",
+      "published": null,
+      "author": null,
+      "snippet": "השופטים דחו את בקשת נתניהו לקצר את הדיון עקב לו\"ז ביטחוני, אך אישרו לו …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:22.161Z"
+    },
+    {
+      "seed": {
+        "date": "2023-12-18",
+        "lang": "he",
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "הארץ",
+        "theme": "חוקר תיק 4000: לא איימנו על אלוביץ' כדי לגייסו כעד מדינה",
+        "url": "https://www.haaretz.co.il/news/law/netanyahutrial/2023-12-18/ty-article/0000018c-7d3a-de8a-afac-ff3b31170000"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "חוקר בתיק 4000: לא איימנו על אלוביץ' כדי שיהיה עד מדינה, שיקפנו מציאות",
+      "published": "2023-12-18",
+      "author": null,
+      "snippet": "אורי קנר, שחקר את בעל השליטה לשעבר בקבוצת בזק המואשם בשוחד, הכחיש שניסה ללחוץ …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:26.859Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "A-direct",
+        "case": "4000",
+        "publication": "ישראל היום",
+        "theme": "נתניהו מעיד בתיק 4000 — פרשת בזק-אלוביץ'",
+        "url": "https://www.israelhayom.co.il/news/law/article/19266809"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T10:21:30.430Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "כלכליסט",
+        "theme": "קליין מעידה בתיק 1000: 'שרה הורתה לסגור שמפניות בשקיות שחורות'",
+        "url": "https://www.calcalist.co.il/local_news/article/hkjnfpzsq"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "קליין מעידה בתיק 1000: \"שרה הורתה לסגור את השמפניות בשקיות שחורות\" | כלכליסט",
+      "published": "2022-07-05",
+      "author": "גלעד מורג וחיים גולדיטש, ynet",
+      "snippet": "נמשכת עדותה של הדס קליין, העוזרת האישית של ארנון מילצ'ן וג'יימס פאקר, בתיק 1000. …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:42.767Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "כאן",
+        "theme": "עדות העוזרת של מילצ'ן: נתניהו בעצמו דרש מתנות",
+        "url": "https://www.kan.org.il/content/kan-news/law/229700/"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T10:21:47.540Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "A-direct",
+        "case": "1000",
+        "publication": "גלובס",
+        "theme": "נתניהו העיד על תיק 1000: 'מילצ'ן יזם, רצה להנעים את חיינו'",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001508293"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "נתניהו העיד על תיק 1000: \"מילצ'ן יזם. רצה להנעים את חיינו\"",
+      "published": "Mon, 21 Ap",
+      "author": null,
+      "snippet": null,
+      "error": null,
+      "fetchedAt": "2026-06-24T10:21:59.686Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "ישראל היום",
+        "theme": "הדס קליין: 'מילצ'ן לימד את פאקר — לנתניהו לא באים בידיים ריקות'",
+        "url": "https://www.israelhayom.co.il/news/law/article/12046875"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T10:22:03.184Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "מעריב",
+        "theme": "תיק 1000: עדותה של הדס קליין",
+        "url": "https://www.maariv.co.il/news/law/Article-929839"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "הדס קליין העידה: \"קניתי לשרה נתניהו תכשיט ב-2,000 דולר באישור ביבי\"",
+      "published": null,
+      "author": null,
+      "snippet": "העוזרת לשעבר של ארנון מילצ'ן המשיכה להעיד במסגרת תיק 1000. מקורבי נתניהו: \"עדותה של …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:15.288Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "גלובס",
+        "theme": "מילצ'ן על רכישת המתנות: הכמויות הלכו וגברו",
+        "url": "https://www.globes.co.il/news/article.aspx?did=1001451605"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "מילצ'ן על רכישת המתנות: הכמויות הלכו וגברו. לא יודע סכומים",
+      "published": "Thu, 06 Ju",
+      "author": null,
+      "snippet": null,
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:18.762Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "N12",
+        "theme": "המספרים מאחורי תיק 1000: סיכום ביניים",
+        "url": "https://www.mako.co.il/news-law/2022_q3/Article-c4c9823d20b1281027.htm"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "המספרים מאחורי תיק 1000, העימותים והפגישות בחניונים: סיכום ביניים",
+      "published": "2022-07-20",
+      "author": "יובל אראל",
+      "snippet": "עו\"ד חדד ניסה לערער על טענת \"קו האספקה\" שבכתב האישום, וטען כי היקף המתנות …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:22.180Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "מעריב",
+        "theme": "נתניהו מעיד בתיק 2000: חקירה נגדית במשפט מוזס",
+        "url": "https://www.maariv.co.il/news/law/article-1329897"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "פרשת נתניהו ונוני מוזס מגיעה לשיא: התשובה של רה\"מ טרם הגיעה",
+      "published": null,
+      "author": null,
+      "snippet": "ראש הממשלה יעיד השבוע במשפט תיק 2000 במסגרת חקירה נגדית, כשעל פי האישום נידונו …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:25.603Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "מעריב",
+        "theme": "תמה החקירה הנגדית; מחר חקירה חוזרת של הסנגורים",
+        "url": "https://www.maariv.co.il/news/law/article-1333422"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "משפט נתניהו: תמה החקירה הנגדית של רה\"מ - מחר תתקיים חקירה חוזרת של הסנגורים",
+      "published": null,
+      "author": null,
+      "snippet": "עדותו של רה\"מ בנימין נתניהו במסגרת החקירה הנגדית בתיק 2000 ובתיק 4000 הסתיימה היום …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:29.681Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "N12",
+        "theme": "רה\"מ חזר לדוכן העדים ונחקר על תיק 2000",
+        "url": "https://www.mako.co.il/news-law/2025_q2/Article-ff2fea3b6501791027.htm"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "משפט נתניהו: רה\"מ חזר לדוכן העדים, ונחקר על תיק 2000",
+      "published": "2025-05-27",
+      "author": "ענבר טויזר",
+      "snippet": "ראש הממשלה נחקר על ידי עורכי דינו של נוני מוזס, בעל השליטה בידיעות אחרונות …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:32.996Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "2000",
+        "publication": "העין השביעית",
+        "theme": "'תיק 2000' נפתח לראשונה; חפץ על יחסי מוזס ונתניהו",
+        "url": "https://www.the7eye.org.il/437642"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T10:22:36.488Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "מעריב",
+        "theme": "רה\"מ נכנס לישורת האחרונה בתיק 2000",
+        "url": "https://www.maariv.co.il/news/law/article-1332526"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "רגע לפני הסוף? השבוע הדרמטי שמחכה לנתניהו בבית המשפט",
+      "published": null,
+      "author": null,
+      "snippet": "השבוע צפויה להימשך עדותו של בנימין נתניהו בתיק 2000, במסגרת החקירה הנגדית בפרשת נתניהו-מוזס. …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:22:48.800Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "evidence",
+        "case": "2000",
+        "publication": "כאן",
+        "theme": "תיק 2000: עורך ידיעות אחרונות העיד במשטרה",
+        "url": "https://www.kan.org.il/content/kan-news/law/232577/"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T10:22:52.318Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "lang": "he",
+        "phase": "B-cross",
+        "case": "all",
+        "publication": "מעריב",
+        "theme": "נתניהו פצח בנאום כללי בדיון: 'זה מזעזע אותי'",
+        "url": "https://www.maariv.co.il/news/law/article-1336326"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "נתניהו פצח בנאום כללי בדיון: \"לא העליתי על דעתי, זה מזעזע אותי\"",
+      "published": null,
+      "author": null,
+      "snippet": "בשבוע שעבר הסתיימה החקירה הנגדית של ראש הממשלה, וכעת המשפט נמצא בשלב החקירה החוזרת …",
+      "error": null,
+      "fetchedAt": "2026-06-24T10:23:04.399Z"
     }
   ]
 }
