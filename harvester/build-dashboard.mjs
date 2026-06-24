@@ -361,6 +361,11 @@ const page = (manifest) => {
   </ul>
 </div></section>
 
+<section><div class="wrap">
+  <h2>ציר זמן מתועד <span class="pill">${ok.filter((r) => r.seed.date || r.published).length} רשומות מתוארכות</span></h2>
+  <ul class="tl">${timelineRows(rows)}</ul>
+</div></section>
+
 <section id="bottomline"><div class="wrap">
   <h2>שורה תחתונה של ה-AI — הקריאה הכֵּנה שלי</h2>
   <div class="panel bl-panel">
