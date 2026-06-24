@@ -45,6 +45,9 @@ This is a research aid, not a legal document and not legal advice.
 | [`docs/03-session-log.md`](docs/03-session-log.md) | Structure of the testimony phase + how to read the 98-hearing count |
 | [`docs/04-evidence-ledger.md`](docs/04-evidence-ledger.md) | Key state witnesses and the evidence as publicly described |
 | [`docs/05-analysis.md`](docs/05-analysis.md) | Prosecution case vs. defense case, per case, with open disputes |
+| [`docs/06-transcript-research.md`](docs/06-transcript-research.md) | Proof that no public verbatim transcript exists, and why |
+| [`docs/07-reported-record.md`](docs/07-reported-record.md) | **Harvested** dated source index of the testimony phase (auto-generated) |
+| [`harvester/`](harvester/) | Zero-dep Node tool that builds doc 07 from public reporting |
 | [`SOURCES.md`](SOURCES.md) | Master source list |
 
 ## Method
