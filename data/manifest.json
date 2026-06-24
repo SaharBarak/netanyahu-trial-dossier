@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-24T09:42:45.382Z",
+  "generatedAt": "2026-06-24T09:53:52.641Z",
   "stats": {
     "generatedAt": "2026-06-24",
-    "total": 22,
-    "ok": 22
+    "total": 74,
+    "ok": 71
   },
   "rows": [
     {
@@ -22,7 +22,7 @@
       "author": null,
       "snippet": "'The goal is to bring down a strong PM... and keep the right away …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:41:14.229Z"
+      "fetchedAt": "2026-06-24T09:48:14.275Z"
     },
     {
       "seed": {
@@ -40,205 +40,367 @@
       "author": null,
       "snippet": "Jerusalem District Court rejects media request to allow public live video feed of opening …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:41:17.877Z"
+      "fetchedAt": "2026-06-24T09:48:17.000Z"
     },
     {
       "seed": {
-        "date": "2024-12-10",
-        "phase": "A-direct",
-        "case": "all",
-        "publication": "PBS NewsHour",
-        "theme": "Netanyahu takes the stand for first time",
-        "url": "https://www.pbs.org/newshour/world/netanyahu-to-take-witness-stand-for-the-first-time-in-his-corruption-trial-in-israel"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "Netanyahu to take witness stand for the first time in his corruption trial in Israel",
-      "published": "2024-12-09",
-      "author": null,
-      "snippet": "At home, Netanyahu is on trial for accusations of fraud, breach of trust and …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:21.429Z"
-    },
-    {
-      "seed": {
-        "date": "2024-12-10",
-        "phase": "A-direct",
-        "case": "all",
-        "publication": "Newsweek",
-        "theme": "Brands charges 'absurd' as he takes the stand",
-        "url": "https://www.newsweek.com/benjamin-netanyahu-corruption-trial-israel-fraud-1998446"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "Netanyahu brands corruption charges 'absurd' as he takes the stand",
-      "published": "2024-12-10",
-      "author": null,
-      "snippet": "Allegations of fraud and bribery have trickled through the Israeli judiciary since 2020.",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:25.477Z"
-    },
-    {
-      "seed": {
-        "date": null,
-        "phase": "logistics",
-        "case": "all",
-        "publication": "Times of Israel",
-        "theme": "Court orders 3 sessions/week from November",
-        "url": "https://www.timesofisrael.com/court-says-netanyahu-to-testify-3-times-per-week-from-november-to-speed-up-trial/"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "Court says Netanyahu to testify 3 times per week from November to speed up trial",
-      "published": "2025-08-12",
-      "author": null,
-      "snippet": "Judges also weigh holding future hearings at Beit Shemesh courthouse instead of Tel Aviv, …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:29.409Z"
-    },
-    {
-      "seed": {
-        "date": null,
-        "phase": "logistics",
-        "case": "all",
-        "publication": "Times of Israel",
-        "theme": "Hearings to be 4 days/week from February",
-        "url": "https://www.timesofisrael.com/hearings-in-netanyahu-corruption-trial-to-be-held-four-days-a-week-from-february/"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "Hearings in Netanyahu corruption trial to be held four days a week from February",
-      "published": "2023-12-25",
-      "author": null,
-      "snippet": "In light of war, hearings were reduced from three times a week to two …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:32.940Z"
-    },
-    {
-      "seed": {
-        "date": "2025-06-03",
-        "phase": "B-cross",
+        "date": "2021-04-05",
+        "phase": "evidence",
         "case": "4000",
         "publication": "Jerusalem Post",
-        "theme": "Cross-examination returns: what to watch",
-        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-892711"
+        "theme": "Prosecution files initial witness list for April 5 opening",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/netanyahu-trial-initial-witness-list-set-finalized-660609"
       },
       "ok": true,
       "status": 200,
-      "title": "Benjamin Netanyahu trial resumes next week: What to watch as cross-examination returns | The Jerusalem Post",
-      "published": "2026-04-12",
+      "title": "Benjamin Netanyahu trial: Prosecution files witness list for April 5 hearing | The Jerusalem Post",
+      "published": "2021-03-02",
       "author": null,
-      "snippet": "The trial remains deep in the testimony phase in Cases 1000, 2000, and 4000, …",
+      "snippet": "The initial witness list and evidentiary documents in the trial of Prime Minister Benjamin …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:41:36.509Z"
+      "fetchedAt": "2026-06-24T09:48:19.532Z"
     },
     {
       "seed": {
         "date": null,
-        "phase": "B-cross",
+        "phase": "evidence",
         "case": "4000",
         "publication": "Times of Israel",
-        "theme": "Prosecution presses interest in media coverage / Walla",
-        "url": "https://www.timesofisrael.com/prosecution-presses-netanyahu-over-his-interest-in-media-coverage-walla-news-site/"
+        "theme": "Yeshua (1st witness) testifies 2nd day; claims he was threatened",
+        "url": "https://www.timesofisrael.com/key-witness-for-prosecution-to-testify-in-netanyahu-trial-for-2nd-day/"
       },
       "ok": true,
       "status": 200,
-      "title": "Prosecution presses Netanyahu over his interest in media coverage, Walla news site",
-      "published": "2025-11-26",
+      "title": "Key witness takes stand for 2nd day in Netanyahu trial, claims he was threatened",
+      "published": "2021-04-06",
       "author": null,
-      "snippet": "Prosecutor focuses on PM's concern with negative coverage of his wife when meeting with …",
+      "snippet": "Ilan Yeshua, former CEO of Walla news, continues testimony in evidentiary phase of graft …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:41:40.870Z"
+      "fetchedAt": "2026-06-24T09:48:22.756Z"
     },
     {
       "seed": {
         "date": null,
-        "phase": "B-cross",
+        "phase": "evidence",
         "case": "4000",
         "publication": "Times of Israel",
-        "theme": "Defense: hostile Walla coverage + telecom reforms make bribery 'absurd'",
-        "url": "https://www.timesofisrael.com/netanyahu-argues-hostile-walla-coverage-telecoms-reforms-prove-bribery-claims-absurd/"
+        "theme": "Yeshua day 2: describes hiding alleged quid pro quo",
+        "url": "https://www.timesofisrael.com/on-day-2-of-testimony-yeshua-describes-effort-to-hide-pms-alleged-quid-pro-quo/"
       },
       "ok": true,
       "status": 200,
-      "title": "Netanyahu argues ‘hostile’ Walla coverage, telecom reforms prove bribery claims ‘absurd’",
-      "published": "2024-12-11",
+      "title": "On day 2 of testimony, Yeshua describes effort to hide PM’s alleged quid pro quo",
+      "published": "2021-04-06",
       "author": null,
-      "snippet": "On the second day of his testimony, PM acknowledges trying to change news site's …",
+      "snippet": "Former CEO of Walla news site appears in court again as evidentiary phase of …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:41:44.411Z"
+      "fetchedAt": "2026-06-24T09:48:26.943Z"
     },
     {
       "seed": {
         "date": null,
-        "phase": "B-cross",
-        "case": "4000",
-        "publication": "Jerusalem Post",
-        "theme": "Prosecution presses Nir Hefetz ties; Case 4000 intensifies",
-        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-882365"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "Benjamin Netanyahu questioned over ties to Nir Hefetz in Case 4000 | The Jerusalem Post",
-      "published": "2026-01-05",
-      "author": null,
-      "snippet": "Testimony by Hefetz, portions of which were read in court, describes Netanyahu as the …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:48.024Z"
-    },
-    {
-      "seed": {
-        "date": null,
-        "phase": "B-cross",
-        "case": "4000",
-        "publication": "Jerusalem Post",
-        "theme": "Hearing opens in Tel Aviv; questions continue on Case 4000",
-        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-880423"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "Netanyahu's trial, questioning for Case 4000 continue | The Jerusalem Post",
-      "published": "2025-12-16",
-      "author": null,
-      "snippet": "Prosecutors argue that while serving as communications minister, Netanyahu advanced regulatory decisions worth hundreds …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:52.118Z"
-    },
-    {
-      "seed": {
-        "date": null,
-        "phase": "B-cross",
-        "case": "4000",
-        "publication": "Jerusalem Post",
-        "theme": "Cites security, diplomatic workload during Case 4000 testimony",
-        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-895201"
-      },
-      "ok": true,
-      "status": 200,
-      "title": "PM cites security, diplomatic workload during Case 4000 testimony | The Jerusalem Post",
-      "published": "2026-05-05",
-      "author": null,
-      "snippet": "The Jerusalem District Court panel hearing the case was first asked to reschedule Tuesday’s …",
-      "error": null,
-      "fetchedAt": "2026-06-24T09:41:57.662Z"
-    },
-    {
-      "seed": {
-        "date": null,
-        "phase": "B-cross",
+        "phase": "evidence",
         "case": "4000",
         "publication": "Times of Israel",
-        "theme": "First cross-exam in 2+ months cut short hours early",
-        "url": "https://www.timesofisrael.com/netanyahus-first-cross-examination-in-over-two-months-cut-short-hours-early/"
+        "theme": "Court grants defense request to search key witness's phone",
+        "url": "https://www.timesofisrael.com/court-grants-defenses-request-to-search-phone-of-key-witness-in-netanyahu-trial/"
       },
       "ok": true,
       "status": 200,
-      "title": "Netanyahu’s first cross-examination in over two months cut short hours early",
-      "published": "2026-04-28",
+      "title": "Court grants defense’s request to search phone of key witness in Netanyahu trial",
+      "published": "2021-06-09",
       "author": null,
-      "snippet": "PM claims authorities intimidated Shlomo Filber into testifying against him, says Bezeq tycoon Elovitch …",
+      "snippet": "Judges order that contents of relevant conversations by former Walla boss Ilan Yeshua and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:01.767Z"
+      "fetchedAt": "2026-06-24T09:48:32.820Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Judge asks witness: how can we tell when you're lying?",
+        "url": "https://www.timesofisrael.com/judge-asks-witness-in-netanyahu-trial-how-can-we-tell-when-youre-lying/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Judge asks witness in Netanyahu trial: How can we tell when you’re lying?",
+      "published": "2021-10-05",
+      "author": null,
+      "snippet": "Ilan Yeshua, former CEO of the Walla news site and a key prosecution witness …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:48:36.878Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "1st witness (Yeshua) wraps; trial pauses 2 weeks",
+        "url": "https://www.timesofisrael.com/netanyahus-graft-trial-to-pause-for-2-weeks-as-first-witness-wraps-up-testimony/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu’s graft trial to pause for 2 weeks as first witness wraps up testimony",
+      "published": "2021-04-20",
+      "author": null,
+      "snippet": "Judges cancel several hearings to allow defense to prepare for cross-examination of ex-Walla CEO …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:48:41.026Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Yeshua testimony concludes after six months / 33 sessions",
+        "url": "https://www.jpost.com/israel-news/ilan-yeshua-testimony-in-netanyahu-case-concludes-after-six-months-681651"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Ilan Yeshua testimony in Benjamin Netanyahu case concludes after six months | The Jerusalem Post",
+      "published": "2021-10-11",
+      "author": null,
+      "snippet": "Following the end of Yeshua's testimony, the trial’s second witness, former Walla chief editor, …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:48:45.465Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Jerusalem Post",
+        "theme": "Witness: billionaire threw her phone in pool over probe",
+        "url": "https://www.jpost.com/israeli-news/benjamin-netanyahu/article-711854"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu trial witness: Billionaire threw her phone in pool over probe | The Jerusalem Post",
+      "published": "2022-07-12",
+      "author": null,
+      "snippet": "Hadas Klein said billionaire tycoon James Packer was nervous about criminal probes into Netanyahu.",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:48:49.219Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Times of Israel",
+        "theme": "Hadas Klein: Netanyahus' incessant demands for gifts",
+        "url": "https://www.timesofisrael.com/key-witness-describes-incessant-demands-from-netanyahus-for-gifts/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Key witness at trial describes the Netanyahus’ incessant demands for gifts",
+      "published": "2022-07-05",
+      "author": null,
+      "snippet": "Hadas Klein, aide to billionaires Arnon Milchan and James Packer, tells court about continuous …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:48:52.228Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Times of Israel",
+        "theme": "Klein: gifts not from genuine friendship",
+        "url": "https://www.timesofisrael.com/key-witness-in-trial-denies-netanyahus-got-luxury-gifts-out-of-genuine-friendship/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Key witness in trial denies Netanyahus got luxury gifts out of genuine friendship",
+      "published": "2022-07-12",
+      "author": null,
+      "snippet": "Hadas Klein, on first day of cross-examination, rejects claims she hid evidence by throwing …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:48:56.587Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Times of Israel",
+        "theme": "Witness: Netanyahu demanded NIS 3,000 'tip' for Tiberias trip",
+        "url": "https://www.timesofisrael.com/key-witness-in-netanyahu-graft-trial-says-former-pm-demanded-nis-3000-for-trip/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Witness in graft trial says Netanyahu asked for NIS 3,000 ‘tip’ to spend in Tiberias",
+      "published": "2022-09-12",
+      "author": null,
+      "snippet": "Hadas Klein says money from boss Arnon Milchan's petty cash went to satisfy demand …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:08.747Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Times of Israel",
+        "theme": "Klein: Netanyahu vetoed Packer donation to Peres Center",
+        "url": "https://www.timesofisrael.com/netanyahu-vetoed-large-donation-by-packer-to-peres-center-key-witness-tells-court/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu vetoed large donation by Packer to Peres Center, key witness tells court",
+      "published": "2022-07-18",
+      "author": null,
+      "snippet": "Former PM, a longtime political rival of late Shimon Peres, 'was very angry' upon …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:13.237Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Times of Israel",
+        "theme": "Milchan aide: Netanyahu introduced Milchan to Kerry re visa",
+        "url": "https://www.timesofisrael.com/milchan-aide-testifies-netanyahu-introduced-her-boss-to-kerry-to-help-him-get-visa/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Milchan aide testifies Netanyahu introduced her boss to Kerry to help him get visa",
+      "published": "2022-07-06",
+      "author": null,
+      "snippet": "Underlining alleged quid pro quo in Case 1000, Hadas Klein says ex-PM called Milchan …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:25.517Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Times of Israel",
+        "theme": "Milchan's driver corroborates luxury-gift deliveries",
+        "url": "https://www.timesofisrael.com/milchans-driver-supports-previous-testimony-describes-luxury-gifts-to-netanyahus/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Milchan’s driver supports previous testimony, describes luxury gifts to Netanyahus",
+      "published": "2022-10-24",
+      "author": null,
+      "snippet": "Trial resumes after three week hiatus; driver Yonatan Hasson says '99%' of all high-end …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:30.018Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Jerusalem Post",
+        "theme": "Hadas Klein threatened over her testimony",
+        "url": "https://www.jpost.com/israel-news/article-749322"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Key witness in Benjamin Netanyahu trial Hadas Klein threatened over testimony | The Jerusalem Post",
+      "published": "2023-07-08",
+      "author": null,
+      "snippet": "Klein was the assistant of Milchan at the time of the alleged bribery, she …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:37.099Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "1000",
+        "publication": "Jerusalem Post",
+        "theme": "Milchan and Klein give conflicting testimonies",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-749394"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu trial: Milchan and Klein give two conflicting testimonies | The Jerusalem Post",
+      "published": "2023-07-09",
+      "author": null,
+      "snippet": "Two realities of the relationship between Milchan and Netanyahu were created by Klein and …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:40.877Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Hefetz cross: prosecution tries to expel press for parts",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/prosecution-tries-to-expel-press-for-parts-of-hefetz-cross-examination-687393"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Police interrogation ‘draconian, horrific, monstrous’ - Hefetz | The Jerusalem Post",
+      "published": "2021-11-30",
+      "author": null,
+      "snippet": "Netanyahu trial star witness cross-examined after prosecution fails to expel press.",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:44.124Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Hefetz: interrogators threatened to destroy his family",
+        "url": "https://www.timesofisrael.com/netanyahu-trial-witness-says-interrogators-threatened-to-destroy-his-family/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu trial witness says interrogators threatened to destroy his family",
+      "published": "2021-12-01",
+      "author": null,
+      "snippet": "During cross-examination, Nir Hefetz describes the 'vile' conditions of his detention that caused him …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:47.078Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "2000",
+        "publication": "Times of Israel",
+        "theme": "Hefetz: Netanyahu saw publisher as his 'true opposition'",
+        "url": "https://www.timesofisrael.com/ex-aide-testifies-netanyahu-saw-newspaper-publisher-as-his-true-opposition/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Ex-aide testifies Netanyahu saw newspaper publisher as his ‘true opposition’",
+      "published": "2021-12-27",
+      "author": null,
+      "snippet": "Nir Hefetz says at cross-examination that former premier blamed all Israeli negative coverage on …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:51.531Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Haaretz",
+        "theme": "Witness: ex-aide Hefetz got standard police treatment",
+        "url": "https://www.haaretz.com/israel-news/.premium-ex-netanyahu-aide-got-standard-police-treatment-witness-says-in-corruption-trial-1.10528335"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Ex-Netanyahu aide got standard police treatment, witness says in corruption trial",
+      "published": "2022-01-10",
+      "author": null,
+      "snippet": "'Nothing was done that wasn’t done to other detainees in other cases,' says officer …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:49:56.284Z"
     },
     {
       "seed": {
@@ -256,15 +418,519 @@
       "author": null,
       "snippet": "State will instead cross-examine key witness Shlomo Filber after raising inconsistencies in his evidence; …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:05.345Z"
+      "fetchedAt": "2026-06-24T09:49:59.986Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Prosecutors question Filber over softened testimony",
+        "url": "https://www.timesofisrael.com/netanyahu-prosecutors-question-state-witness-filber-over-softened-testimony/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu trial prosecutors question state witness Filber over changes in testimony",
+      "published": "2022-04-04",
+      "author": null,
+      "snippet": "'There's something you're not saying,' prosecutor charges during cross examination of former Communications Ministry …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:02.526Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Filber insists his testimony stands amid contradictions",
+        "url": "https://www.timesofisrael.com/amid-apparent-contradictions-state-witness-filber-insists-his-testimony-stands/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Amid apparent contradictions, state witness Filber insists his testimony stands",
+      "published": "2022-06-01",
+      "author": null,
+      "snippet": "'One cannot erase a situation from one's brain,' Filber says, accusing police of manipulating …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:07.194Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Filber state-witness deal nullified",
+        "url": "https://www.jpost.com/breaking-news/article-795983"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu trial: State witness deal with Shlomo Filber nullified | The Jerusalem Post",
+      "published": "2024-04-08",
+      "author": null,
+      "snippet": "This explosive development could change the entire nature of the media bribery and fraud …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:13.768Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "evidence",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "3 ex-Netanyahu aides may face charges for harassing witness",
+        "url": "https://www.timesofisrael.com/3-ex-netanyahu-aides-may-face-charges-for-allegedly-harassing-witness-in-his-trial/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "3 ex-Netanyahu aides may face charges for allegedly harassing witness in his trial",
+      "published": "2023-06-21",
+      "author": null,
+      "snippet": "Jonatan Urich, Ofer Golan and Yisrael Einhorn to be charged, pending hearing, for allegedly …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:18.545Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Court twice rejects PM delay requests (diplomatic dev.)",
+        "url": "https://www.timesofisrael.com/court-rejects-pms-request-to-delay-trial-testimony-lawyer-cited-diplomatic-developments/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Court twice rejects PM’s requests to delay trial testimony; lawyer cited diplomatic developments",
+      "published": "2025-06-27",
+      "author": null,
+      "snippet": "After judge says defense didn't present clear justification for postponing hearings, Netanyahu refiles request …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:23.146Z"
+    },
+    {
+      "seed": {
+        "date": "2024-07-21",
+        "phase": "logistics",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Prosecutors rest case; PM defense to open Dec 2",
+        "url": "https://www.timesofisrael.com/prosecutors-rest-case-in-netanyahu-trial-pm-to-kick-off-defense-portion-on-dec-2/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Prosecutors rest case in Netanyahu trial; PM to kick off defense portion on Dec. 2",
+      "published": "2024-08-08",
+      "author": null,
+      "snippet": "Corruption trial, in which PM is charged of bribery, fraud and breach of trust, …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:34.795Z"
+    },
+    {
+      "seed": {
+        "date": "2024-12-10",
+        "phase": "A-direct",
+        "case": "all",
+        "publication": "PBS NewsHour",
+        "theme": "Netanyahu takes the stand for first time",
+        "url": "https://www.pbs.org/newshour/world/netanyahu-to-take-witness-stand-for-the-first-time-in-his-corruption-trial-in-israel"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu to take witness stand for the first time in his corruption trial in Israel",
+      "published": "2024-12-09",
+      "author": null,
+      "snippet": "At home, Netanyahu is on trial for accusations of fraud, breach of trust and …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:42.523Z"
+    },
+    {
+      "seed": {
+        "date": "2024-12-10",
+        "phase": "A-direct",
+        "case": "all",
+        "publication": "Newsweek",
+        "theme": "Brands charges 'absurd' as he takes the stand",
+        "url": "https://www.newsweek.com/benjamin-netanyahu-corruption-trial-israel-fraud-1998446"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu brands corruption charges 'absurd' as he takes the stand",
+      "published": "2024-12-10",
+      "author": null,
+      "snippet": "Allegations of fraud and bribery have trickled through the Israeli judiciary since 2020.",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:45.989Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "A-direct",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Direct: hostile Walla coverage + reforms make bribery 'absurd'",
+        "url": "https://www.timesofisrael.com/netanyahu-argues-hostile-walla-coverage-telecoms-reforms-prove-bribery-claims-absurd/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu argues ‘hostile’ Walla coverage, telecom reforms prove bribery claims ‘absurd’",
+      "published": "2024-12-11",
+      "author": null,
+      "snippet": "On the second day of his testimony, PM acknowledges trying to change news site's …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:48.939Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "logistics",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Court orders 3 sessions/week from November",
+        "url": "https://www.timesofisrael.com/court-says-netanyahu-to-testify-3-times-per-week-from-november-to-speed-up-trial/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Court says Netanyahu to testify 3 times per week from November to speed up trial",
+      "published": "2025-08-12",
+      "author": null,
+      "snippet": "Judges also weigh holding future hearings at Beit Shemesh courthouse instead of Tel Aviv, …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:51.492Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "logistics",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Hearings to be 4 days/week from February",
+        "url": "https://www.timesofisrael.com/hearings-in-netanyahu-corruption-trial-to-be-held-four-days-a-week-from-february/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Hearings in Netanyahu corruption trial to be held four days a week from February",
+      "published": "2023-12-25",
+      "author": null,
+      "snippet": "In light of war, hearings were reduced from three times a week to two …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:50:56.570Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "logistics",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Court rejects PM request to testify only 2 days/week",
+        "url": "https://www.timesofisrael.com/with-date-set-legal-fight-shifts-to-pace-of-netanyahu-testimony-in-his-graft-trial/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Court rejects Netanyahu request to testify only 2 days a week in corruption trial",
+      "published": "2024-12-05",
+      "author": null,
+      "snippet": "Netanyahu's lawyers claim request for more court hours is unfairly creating difficulties for the …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:06.649Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "logistics",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Judges: PM no longer must face press at hearings",
+        "url": "https://www.timesofisrael.com/judges-say-netanyahu-will-no-longer-have-to-face-the-press-at-court-hearings/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Judges say Netanyahu will no longer have to face the press at court hearings",
+      "published": "2025-10-29",
+      "author": null,
+      "snippet": "PM tells court he's 'in the most difficult position in the world,' cannot attend …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:13.803Z"
+    },
+    {
+      "seed": {
+        "date": "2025-06-03",
+        "phase": "B-cross",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Cross-examination to begin Tuesday (5 yrs in)",
+        "url": "https://www.timesofisrael.com/cross-examination-of-netanyahu-in-criminal-trial-to-begin-on-tuesday/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "5 years into his criminal trial, cross-examination of Netanyahu to begin on Tuesday",
+      "published": "2025-06-02",
+      "author": null,
+      "snippet": "Process may take a year to complete, after PM's questioning by defense attorney took …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:20.598Z"
+    },
+    {
+      "seed": {
+        "date": "2025-06-03",
+        "phase": "B-cross",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Prosecution begins cross-examination (liveblog)",
+        "url": "https://www.timesofisrael.com/liveblog_entry/prosecution-begins-cross-examination-of-netanyahu-at-criminal-trial/"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T09:51:27.422Z"
+    },
+    {
+      "seed": {
+        "date": "2025-06-03",
+        "phase": "B-cross",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Day 1 cross: pressed on veracity of his memory",
+        "url": "https://www.timesofisrael.com/in-first-day-of-cross-examination-netanyahu-pressed-on-the-veracity-of-his-memory/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "In first day of cross-examination, Netanyahu pressed on the veracity of his memory",
+      "published": "2025-06-03",
+      "author": null,
+      "snippet": "Prosecution challenges PM on his relationship with Milchan and his police testimony, pointing to …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:37.577Z"
+    },
+    {
+      "seed": {
+        "date": "2025-06-03",
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "First Case 4000 cross: sharp clash over media influence",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-874339"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu disputes Walla influence claims in Case 4000 | The Jerusalem Post",
+      "published": "2025-11-18",
+      "author": null,
+      "snippet": "Case 4000 explores the Netanyahu's seeking favorable coverage in Israeli media, particularly their relationship …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:44.314Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Prosecution challenges PM's account of Walla's importance",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-876243"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu trial: Questioning continues on Case 4000 | The Jerusalem Post",
+      "published": "2025-11-26",
+      "author": null,
+      "snippet": "Prosecutor Yehudit Tirosh presses Prime Minister Netanyahu in Case 4000, questioning his stance on …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:48.168Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Cross resumes: what to watch",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-892711"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu trial resumes next week: What to watch as cross-examination returns | The Jerusalem Post",
+      "published": "2026-04-12",
+      "author": null,
+      "snippet": "The trial remains deep in the testimony phase in Cases 1000, 2000, and 4000, …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:51.526Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Prosecution presses interest in media coverage / Walla",
+        "url": "https://www.timesofisrael.com/prosecution-presses-netanyahu-over-his-interest-in-media-coverage-walla-news-site/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Prosecution presses Netanyahu over his interest in media coverage, Walla news site",
+      "published": "2025-11-26",
+      "author": null,
+      "snippet": "Prosecutor focuses on PM's concern with negative coverage of his wife when meeting with …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:54.777Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Prosecution presses Nir Hefetz ties; Case 4000 intensifies",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-882365"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu questioned over ties to Nir Hefetz in Case 4000 | The Jerusalem Post",
+      "published": "2026-01-05",
+      "author": null,
+      "snippet": "Testimony by Hefetz, portions of which were read in court, describes Netanyahu as the …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:51:57.325Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Hearing opens in Tel Aviv; questions continue on Case 4000",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-880423"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu's trial, questioning for Case 4000 continue | The Jerusalem Post",
+      "published": "2025-12-16",
+      "author": null,
+      "snippet": "Prosecutors argue that while serving as communications minister, Netanyahu advanced regulatory decisions worth hundreds …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:00.091Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Cites security, diplomatic workload during Case 4000 testimony",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-895201"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "PM cites security, diplomatic workload during Case 4000 testimony | The Jerusalem Post",
+      "published": "2026-05-05",
+      "author": null,
+      "snippet": "The Jerusalem District Court panel hearing the case was first asked to reschedule Tuesday’s …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:02.796Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "Case 4000 cut short after sealed envelope; media-ties pressed",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-883081"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu's testimony for Case 4000 cut short | The Jerusalem Post",
+      "published": "2026-01-12",
+      "author": null,
+      "snippet": "Monday marked Netanyahu’s 70th day of testimony in his ongoing corruption trial and his …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:05.512Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "PM denies 'directive meeting' with Filber in cross",
+        "url": "https://www.jpost.com/israel-news/article-886117"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Prosecutors challenge Benjamin Netanyahu on Filber ties in Case 4000 | The Jerusalem Post",
+      "published": "2026-02-09",
+      "author": null,
+      "snippet": "Monday’s hearing focused on Netanyahu’s relationship with Shlomo Filber, whom he appointed as director-general …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:08.668Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "4000",
+        "publication": "Jerusalem Post",
+        "theme": "PM accuses Case 4000 lead prosecutor of lying re Filber",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-887643"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "PM accuses Case 4000 prosecutor of lying about meeting | The Jerusalem Post",
+      "published": "2026-02-23",
+      "author": null,
+      "snippet": "Monday's accusation came during the Prime Minister's cross-examination. The PM has denied any wrongdoing …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:11.718Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Cross interrupted as PM leaves for urgent security meeting",
+        "url": "https://www.timesofisrael.com/netanyahu-trial-cross-examination-interrupted-as-pm-leaves-for-urgent-security-meeting/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu trial cross-examination interrupted as he leaves for urgent security meeting",
+      "published": "2026-04-29",
+      "author": null,
+      "snippet": "Premier departs for consultation at IDF's Kirya HQ half-hour after hearing begins, after court …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:15.703Z"
     },
     {
       "seed": {
         "date": null,
         "phase": "B-cross",
         "case": "1000",
+        "publication": "Jerusalem Post",
+        "theme": "Prosecution challenges cigar defense in Case 1000 cross",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-872883"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Prosecution challenges Netanyahu’s cigar defense in Case 10 | The Jerusalem Post",
+      "published": "2025-11-05",
+      "author": null,
+      "snippet": "Prosecution cross-examined Netanyahu on prior statements he had made about documentation he claimed to …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:19.930Z"
+    },
+    {
+      "seed": {
+        "date": "2025-11-18",
+        "phase": "B-cross",
+        "case": "1000",
         "publication": "Times of Israel",
-        "theme": "Final day Case 1000 cross-exam; memory/ex-lawyer illness",
+        "theme": "Final day Case 1000 cross; memory/ex-lawyer illness",
         "url": "https://www.timesofisrael.com/in-final-day-of-case-1000-cross-examination-pm-says-ex-lawyers-cancer-impacted-memory/"
       },
       "ok": true,
@@ -274,61 +940,187 @@
       "author": null,
       "snippet": "Prosecutors will now turn to Case 4000, after Monday's hearing on unrecorded meetings and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:08.877Z"
+      "fetchedAt": "2026-06-24T09:52:23.587Z"
     },
     {
       "seed": {
         "date": null,
-        "phase": "analysis",
-        "case": "4000",
-        "publication": "Times of Israel",
-        "theme": "Judges confirm suggesting prosecution drop bribery charge",
-        "url": "https://www.timesofisrael.com/judges-in-netanyahu-trial-confirm-suggesting-prosecution-drop-bribery-charge/"
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "Jerusalem Post",
+        "theme": "Testimony shifts to Case 2000 after Case 4000 cross",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-895917"
       },
       "ok": true,
       "status": 200,
-      "title": "Judges in Netanyahu trial confirm suggesting prosecution drop bribery charge",
-      "published": "2023-06-29",
+      "title": "Netanyahu’s testimony shifts to Case 2000 after Case 4000 cross-examination | The Jerusalem Post",
+      "published": "2026-05-12",
       "author": null,
-      "snippet": "Justices issue official record of contents of meeting, note that the state's representative rejected …",
+      "snippet": "Netanyahu’s defense enters its final stretch, with Case 4000 concluding and prosecutors now tackling …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:12.413Z"
+      "fetchedAt": "2026-06-24T09:52:26.162Z"
     },
     {
       "seed": {
         "date": null,
-        "phase": "analysis",
-        "case": "4000",
-        "publication": "Times of Israel",
-        "theme": "Experts: bribery charge may be weakened but case not over",
-        "url": "https://www.timesofisrael.com/bribery-charge-against-netanyahu-may-be-weakened-but-case-not-over-say-experts/"
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "Jerusalem Post",
+        "theme": "Cross-examination questioning continues in Case 2000",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-896666"
       },
       "ok": true,
       "status": 200,
-      "title": "Bribery charge against Netanyahu may be weakened but case not over, say experts",
-      "published": "2022-05-21",
+      "title": "Cross-examination questioning continues in Case 2000 | The Jerusalem Post",
+      "published": "2026-05-19",
       "author": null,
-      "snippet": "Credibility of state’s key witness Shlomo Filber is on the rocks after the defense …",
+      "snippet": "The hearing began with an announcement from presiding judges Rivka Friedman-Feldman, Moshe Bar-Am and …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:15.948Z"
+      "fetchedAt": "2026-06-24T09:52:29.149Z"
     },
     {
       "seed": {
-        "date": "2025-11-30",
-        "phase": "context",
+        "date": null,
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "Jerusalem Post",
+        "theme": "PM slams prosecution's Case 2000 claims (Tel Aviv)",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-899681"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu slams prosecution's Case 2000 claims as trial continues in Tel Aviv | The Jerusalem Post",
+      "published": "2026-06-17",
+      "author": null,
+      "snippet": "Netanyahu is charged in the case with fraud and breach of trust.",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:32.561Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "2000",
+        "publication": "Times of Israel",
+        "theme": "PM: talks with publisher on curbing rival were not criminal",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-conversations-with-newspaper-publisher-about-restricting-its-rival-were-not-criminal/"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T09:52:36.353Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
         "case": "all",
-        "publication": "NPR",
-        "theme": "High-stakes bid to end the trial",
-        "url": "https://www.npr.org/2025/11/30/nx-s1-5626099/netanyahu-makes-a-high-stakes-bid-to-end-his-corruption-trial"
+        "publication": "Times of Israel",
+        "theme": "PM in court as trial passes 6-year mark",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-in-court-to-testify-as-his-corruption-trial-passes-6-year-mark/"
+      },
+      "ok": false,
+      "status": 403,
+      "title": null,
+      "published": null,
+      "author": null,
+      "snippet": null,
+      "error": "HTTP 403",
+      "fetchedAt": "2026-06-24T09:52:46.412Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "B-cross",
+        "case": "all",
+        "publication": "Jerusalem Post",
+        "theme": "PM requests judges delay / end hearing early",
+        "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-898074"
       },
       "ok": true,
       "status": 200,
-      "title": "Netanyahu makes a high-stakes bid to end his corruption trial",
-      "published": "2025-11-30",
-      "author": "Miles Parks",
-      "snippet": "Israeli PM Netanyahu seeks to end his corruption trial through a presidential pardon while …",
+      "title": "Benjamin Netanyahu corruption trial continues, PM requests judges delay, end early | The Jerusalem Post",
+      "published": "2026-06-02",
+      "author": null,
+      "snippet": "The cross-examination section of the trial is in its final stretch. The hearings come …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:30.043Z"
+      "fetchedAt": "2026-06-24T09:52:56.551Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "Jerusalem Post",
+        "theme": "Trial to resume after war-related court pause",
+        "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-892469"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu trial to resume after war-related court pause | The Jerusalem Post",
+      "published": "2026-04-09",
+      "author": null,
+      "snippet": "Netanyahu’s corruption trial will resume Sunday after weeks of war-related court disruptions, returning to …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:52:59.492Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "Jerusalem Post",
+        "theme": "Trial returns after two months; hearing cut short",
+        "url": "https://www.jpost.com/israel-news/article-894423"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Benjamin Netanyahu criminal trial returns after two months, testimony hearing cut short | The Jerusalem Post",
+      "published": "2026-04-28",
+      "author": null,
+      "snippet": "Questioning continued by prosecutor Yehudit Tirosh on Case 4000, the Bezeq-Walla affair, where Netanyahu …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:02.690Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Testimony Wednesday canceled for 'security reason'",
+        "url": "https://www.timesofisrael.com/netanyahu-testimony-in-corruption-trial-on-wednesday-canceled-for-security-reason/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu testimony in corruption trial on Wednesday canceled for ‘security reason’",
+      "published": "2025-11-17",
+      "author": null,
+      "snippet": "Judge nixes hearing after PM's lawyers hand over envelope detailing reason for request; prosecution …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:08.367Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Hearing cut by 2 hours for 'urgent diplomatic meeting'",
+        "url": "https://www.timesofisrael.com/netanyahu-trial-hearing-to-be-cut-by-2-hours-due-to-urgent-diplomatic-meeting/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu trial hearing to be cut by 2 hours due to ‘urgent diplomatic meeting’",
+      "published": "2025-11-03",
+      "author": null,
+      "snippet": "Prime minister often asks to truncate the hearings, which occur four times a week, …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:12.888Z"
     },
     {
       "seed": {
@@ -346,7 +1138,79 @@
       "author": null,
       "snippet": "Netanyahu Is Nearing the End of Cross-examination in Case 4000 as Court Hearings Have …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:33.892Z"
+      "fetchedAt": "2026-06-24T09:53:17.690Z"
+    },
+    {
+      "seed": {
+        "date": "2026-05-05",
+        "phase": "cancellations",
+        "case": "all",
+        "publication": "Haaretz",
+        "theme": "Judges agree to delay hearing over 'security schedule'",
+        "url": "https://www.haaretz.com/israel-news/israel-politics/2026-05-05/ty-article/.premium/judges-agree-to-move-netanyahu-trial-hearing-over-security-schedule/0000019d-f772-df01-a3dd-f7fb11380000"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "For second day in a row • Judges agree to delay Netanyahu trial hearing over 'security schedule'",
+      "published": "2026-05-05",
+      "author": null,
+      "snippet": "Netanyahu's testimony in his graft trial was also canceled last week, after the Iran …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:20.327Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "context",
+        "case": "all",
+        "publication": "Ynet",
+        "theme": "Trial resumes with prosecution cross after month recess",
+        "url": "https://www.ynetnews.com/article/b10093cocgx"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu corruption trial resumes with prosecution cross-examination after month-long recess",
+      "published": "2025-09-08",
+      "author": "Netael Bandel",
+      "snippet": "Judges order the trial to run four days a week, dedicating almost all of …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:22.958Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Cross-examination ends early again for 'security reasons'",
+        "url": "https://www.timesofisrael.com/netanyahus-cross-examination-ends-early-again-for-security-reasons/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu’s cross-examination ends early again for ‘security reasons’",
+      "published": "2026-05-25",
+      "author": null,
+      "snippet": "Judges agree to end hearing in Case 2000 two hours early after PM's team …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:26.728Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "C-reexam",
+        "case": "all",
+        "publication": "JNS",
+        "theme": "Prosecutors conclude final cross-examination",
+        "url": "https://www.jns.org/news/israel-news/israeli-prosecutors-conclude-final-cross-examination-in-netanyahu-corruption-trial"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Israeli prosecutors conclude final cross-examination in Netanyahu corruption trial",
+      "published": "2026-06-16",
+      "author": null,
+      "snippet": "The Israeli prime minister is expected to take the stand for several more days …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:30.751Z"
     },
     {
       "seed": {
@@ -364,7 +1228,7 @@
       "author": null,
       "snippet": "Netanyahu said prosecutors had caused him to give answers that could be portrayed as …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:37.896Z"
+      "fetchedAt": "2026-06-24T09:53:34.585Z"
     },
     {
       "seed": {
@@ -382,7 +1246,7 @@
       "author": null,
       "snippet": "Traveling between the courthouse, security briefings, and a frayed coalition, Netanyahu attended 98 testimonies …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:41.603Z"
+      "fetchedAt": "2026-06-24T09:53:37.603Z"
     },
     {
       "seed": {
@@ -400,7 +1264,79 @@
       "author": null,
       "snippet": "PM claims people likened his prosecutors to the 'Stasi' as state attorney scrutinizes Netanyahu's …",
       "error": null,
-      "fetchedAt": "2026-06-24T09:42:45.345Z"
+      "fetchedAt": "2026-06-24T09:53:40.275Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "analysis",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Judges confirm suggesting prosecution drop bribery charge",
+        "url": "https://www.timesofisrael.com/judges-in-netanyahu-trial-confirm-suggesting-prosecution-drop-bribery-charge/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Judges in Netanyahu trial confirm suggesting prosecution drop bribery charge",
+      "published": "2023-06-29",
+      "author": null,
+      "snippet": "Justices issue official record of contents of meeting, note that the state's representative rejected …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:42.808Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "analysis",
+        "case": "4000",
+        "publication": "Times of Israel",
+        "theme": "Experts: bribery charge may be weakened but case not over",
+        "url": "https://www.timesofisrael.com/bribery-charge-against-netanyahu-may-be-weakened-but-case-not-over-say-experts/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Bribery charge against Netanyahu may be weakened but case not over, say experts",
+      "published": "2022-05-21",
+      "author": null,
+      "snippet": "Credibility of state’s key witness Shlomo Filber is on the rocks after the defense …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:45.357Z"
+    },
+    {
+      "seed": {
+        "date": "2025-11-30",
+        "phase": "context",
+        "case": "all",
+        "publication": "NPR",
+        "theme": "High-stakes bid to end the trial",
+        "url": "https://www.npr.org/2025/11/30/nx-s1-5626099/netanyahu-makes-a-high-stakes-bid-to-end-his-corruption-trial"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Netanyahu makes a high-stakes bid to end his corruption trial",
+      "published": "2025-11-30",
+      "author": "Miles Parks",
+      "snippet": "Israeli PM Netanyahu seeks to end his corruption trial through a presidential pardon while …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:47.953Z"
+    },
+    {
+      "seed": {
+        "date": null,
+        "phase": "context",
+        "case": "all",
+        "publication": "Times of Israel",
+        "theme": "Secret deal to end trial fell apart over PM stepping down",
+        "url": "https://www.timesofisrael.com/secret-deal-to-end-netanyahu-trial-fell-apart-over-pms-refusal-to-step-down-source/"
+      },
+      "ok": true,
+      "status": 200,
+      "title": "Secret deal to end Netanyahu trial fell apart over PM’s refusal to step down — source",
+      "published": "2025-06-26",
+      "author": null,
+      "snippet": "In meeting with ex-Supreme Court chief Aharon Barak, premier's lawyer suggested accepting conviction on …",
+      "error": null,
+      "fetchedAt": "2026-06-24T09:53:51.116Z"
     }
   ]
 }

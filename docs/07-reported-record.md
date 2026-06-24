@@ -6,7 +6,7 @@
 > not a court transcript** — no verbatim hearing record exists publicly (see
 > `docs/06-transcript-research.md`).
 
-_Generated 2026-06-24 — 22/22 sources reachable._
+_Generated 2026-06-24 — 71/74 sources reachable._
 
 ## Pre-trial (2020)
 
@@ -25,18 +25,32 @@ _Generated 2026-06-24 — 22/22 sources reachable._
 - **2024-12-10** — [Netanyahu brands corruption charges 'absurd' as he takes the stand](https://www.newsweek.com/benjamin-netanyahu-corruption-trial-israel-fraud-1998446) — _Newsweek_
   - Theme: Brands charges 'absurd' as he takes the stand
   - Dek (≤14w): "Allegations of fraud and bribery have trickled through the Israeli judiciary since 2020."
+- **2024-12-11** — [Netanyahu argues ‘hostile’ Walla coverage, telecom reforms prove bribery claims ‘absurd’](https://www.timesofisrael.com/netanyahu-argues-hostile-walla-coverage-telecoms-reforms-prove-bribery-claims-absurd/) — _Times of Israel_ `Case 4000`
+  - Theme: Direct: hostile Walla coverage + reforms make bribery 'absurd'
+  - Dek (≤14w): "On the second day of his testimony, PM acknowledges trying to change news site's …"
 
 ## Phase B — Cross-examination
 
-- **2024-12-11** — [Netanyahu argues ‘hostile’ Walla coverage, telecom reforms prove bribery claims ‘absurd’](https://www.timesofisrael.com/netanyahu-argues-hostile-walla-coverage-telecoms-reforms-prove-bribery-claims-absurd/) — _Times of Israel_ `Case 4000`
-  - Theme: Defense: hostile Walla coverage + telecom reforms make bribery 'absurd'
-  - Dek (≤14w): "On the second day of his testimony, PM acknowledges trying to change news site's …"
-- **2025-06-03** — [Benjamin Netanyahu trial resumes next week: What to watch as cross-examination returns | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-892711) — _Jerusalem Post_ `Case 4000`
-  - Theme: Cross-examination returns: what to watch
-  - Dek (≤14w): "The trial remains deep in the testimony phase in Cases 1000, 2000, and 4000, …"
+- **2025-06-03** — [5 years into his criminal trial, cross-examination of Netanyahu to begin on Tuesday](https://www.timesofisrael.com/cross-examination-of-netanyahu-in-criminal-trial-to-begin-on-tuesday/) — _Times of Israel_
+  - Theme: Cross-examination to begin Tuesday (5 yrs in)
+  - Dek (≤14w): "Process may take a year to complete, after PM's questioning by defense attorney took …"
+- **2025-06-03** — [Prosecution begins cross-examination (liveblog)](https://www.timesofisrael.com/liveblog_entry/prosecution-begins-cross-examination-of-netanyahu-at-criminal-trial/) — _Times of Israel_ ⚠️(HTTP 403)
+  - Theme: Prosecution begins cross-examination (liveblog)
+- **2025-06-03** — [In first day of cross-examination, Netanyahu pressed on the veracity of his memory](https://www.timesofisrael.com/in-first-day-of-cross-examination-netanyahu-pressed-on-the-veracity-of-his-memory/) — _Times of Israel_
+  - Theme: Day 1 cross: pressed on veracity of his memory
+  - Dek (≤14w): "Prosecution challenges PM on his relationship with Milchan and his police testimony, pointing to …"
+- **2025-06-03** — [Benjamin Netanyahu disputes Walla influence claims in Case 4000 | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-874339) — _Jerusalem Post_ `Case 4000`
+  - Theme: First Case 4000 cross: sharp clash over media influence
+  - Dek (≤14w): "Case 4000 explores the Netanyahu's seeking favorable coverage in Israeli media, particularly their relationship …"
+- **2025-11-05** — [Prosecution challenges Netanyahu’s cigar defense in Case 10 | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-872883) — _Jerusalem Post_ `Case 1000`
+  - Theme: Prosecution challenges cigar defense in Case 1000 cross
+  - Dek (≤14w): "Prosecution cross-examined Netanyahu on prior statements he had made about documentation he claimed to …"
 - **2025-11-18** — [In final day of Case 1000 cross-examination, PM says ex-lawyer’s cancer impacted memory](https://www.timesofisrael.com/in-final-day-of-case-1000-cross-examination-pm-says-ex-lawyers-cancer-impacted-memory/) — _Times of Israel_ `Case 1000`
-  - Theme: Final day Case 1000 cross-exam; memory/ex-lawyer illness
+  - Theme: Final day Case 1000 cross; memory/ex-lawyer illness
   - Dek (≤14w): "Prosecutors will now turn to Case 4000, after Monday's hearing on unrecorded meetings and …"
+- **2025-11-26** — [Benjamin Netanyahu trial: Questioning continues on Case 4000 | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-876243) — _Jerusalem Post_ `Case 4000`
+  - Theme: Prosecution challenges PM's account of Walla's importance
+  - Dek (≤14w): "Prosecutor Yehudit Tirosh presses Prime Minister Netanyahu in Case 4000, questioning his stance on …"
 - **2025-11-26** — [Prosecution presses Netanyahu over his interest in media coverage, Walla news site](https://www.timesofisrael.com/prosecution-presses-netanyahu-over-his-interest-in-media-coverage-walla-news-site/) — _Times of Israel_ `Case 4000`
   - Theme: Prosecution presses interest in media coverage / Walla
   - Dek (≤14w): "Prosecutor focuses on PM's concern with negative coverage of his wife when meeting with …"
@@ -46,21 +60,127 @@ _Generated 2026-06-24 — 22/22 sources reachable._
 - **2026-01-05** — [Benjamin Netanyahu questioned over ties to Nir Hefetz in Case 4000 | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-882365) — _Jerusalem Post_ `Case 4000`
   - Theme: Prosecution presses Nir Hefetz ties; Case 4000 intensifies
   - Dek (≤14w): "Testimony by Hefetz, portions of which were read in court, describes Netanyahu as the …"
-- **2026-04-28** — [Netanyahu’s first cross-examination in over two months cut short hours early](https://www.timesofisrael.com/netanyahus-first-cross-examination-in-over-two-months-cut-short-hours-early/) — _Times of Israel_ `Case 4000`
-  - Theme: First cross-exam in 2+ months cut short hours early
-  - Dek (≤14w): "PM claims authorities intimidated Shlomo Filber into testifying against him, says Bezeq tycoon Elovitch …"
+- **2026-01-12** — [Netanyahu's testimony for Case 4000 cut short | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-883081) — _Jerusalem Post_ `Case 4000`
+  - Theme: Case 4000 cut short after sealed envelope; media-ties pressed
+  - Dek (≤14w): "Monday marked Netanyahu’s 70th day of testimony in his ongoing corruption trial and his …"
+- **2026-02-09** — [Prosecutors challenge Benjamin Netanyahu on Filber ties in Case 4000 | The Jerusalem Post](https://www.jpost.com/israel-news/article-886117) — _Jerusalem Post_ `Case 4000`
+  - Theme: PM denies 'directive meeting' with Filber in cross
+  - Dek (≤14w): "Monday’s hearing focused on Netanyahu’s relationship with Shlomo Filber, whom he appointed as director-general …"
+- **2026-02-23** — [PM accuses Case 4000 prosecutor of lying about meeting | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-887643) — _Jerusalem Post_ `Case 4000`
+  - Theme: PM accuses Case 4000 lead prosecutor of lying re Filber
+  - Dek (≤14w): "Monday's accusation came during the Prime Minister's cross-examination. The PM has denied any wrongdoing …"
+- **2026-04-12** — [Benjamin Netanyahu trial resumes next week: What to watch as cross-examination returns | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-892711) — _Jerusalem Post_ `Case 4000`
+  - Theme: Cross resumes: what to watch
+  - Dek (≤14w): "The trial remains deep in the testimony phase in Cases 1000, 2000, and 4000, …"
+- **2026-04-29** — [Netanyahu trial cross-examination interrupted as he leaves for urgent security meeting](https://www.timesofisrael.com/netanyahu-trial-cross-examination-interrupted-as-pm-leaves-for-urgent-security-meeting/) — _Times of Israel_
+  - Theme: Cross interrupted as PM leaves for urgent security meeting
+  - Dek (≤14w): "Premier departs for consultation at IDF's Kirya HQ half-hour after hearing begins, after court …"
 - **2026-05-05** — [PM cites security, diplomatic workload during Case 4000 testimony | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-895201) — _Jerusalem Post_ `Case 4000`
   - Theme: Cites security, diplomatic workload during Case 4000 testimony
   - Dek (≤14w): "The Jerusalem District Court panel hearing the case was first asked to reschedule Tuesday’s …"
+- **2026-05-12** — [Netanyahu’s testimony shifts to Case 2000 after Case 4000 cross-examination | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-895917) — _Jerusalem Post_ `Case 2000`
+  - Theme: Testimony shifts to Case 2000 after Case 4000 cross
+  - Dek (≤14w): "Netanyahu’s defense enters its final stretch, with Case 4000 concluding and prosecutors now tackling …"
+- **2026-05-19** — [Cross-examination questioning continues in Case 2000 | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-896666) — _Jerusalem Post_ `Case 2000`
+  - Theme: Cross-examination questioning continues in Case 2000
+  - Dek (≤14w): "The hearing began with an announcement from presiding judges Rivka Friedman-Feldman, Moshe Bar-Am and …"
+- **2026-06-02** — [Benjamin Netanyahu corruption trial continues, PM requests judges delay, end early | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-898074) — _Jerusalem Post_
+  - Theme: PM requests judges delay / end hearing early
+  - Dek (≤14w): "The cross-examination section of the trial is in its final stretch. The hearings come …"
+- **2026-06-17** — [Benjamin Netanyahu slams prosecution's Case 2000 claims as trial continues in Tel Aviv | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-899681) — _Jerusalem Post_ `Case 2000`
+  - Theme: PM slams prosecution's Case 2000 claims (Tel Aviv)
+  - Dek (≤14w): "Netanyahu is charged in the case with fraud and breach of trust."
+- **undated** — [PM: talks with publisher on curbing rival were not criminal](https://www.timesofisrael.com/liveblog_entry/netanyahu-conversations-with-newspaper-publisher-about-restricting-its-rival-were-not-criminal/) — _Times of Israel_ `Case 2000` ⚠️(HTTP 403)
+  - Theme: PM: talks with publisher on curbing rival were not criminal
+- **undated** — [PM in court as trial passes 6-year mark](https://www.timesofisrael.com/liveblog_entry/netanyahu-in-court-to-testify-as-his-corruption-trial-passes-6-year-mark/) — _Times of Israel_ ⚠️(HTTP 403)
+  - Theme: PM in court as trial passes 6-year mark
 
 ## Evidence / state witnesses
 
+- **2021-04-05** — [Benjamin Netanyahu trial: Prosecution files witness list for April 5 hearing | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/netanyahu-trial-initial-witness-list-set-finalized-660609) — _Jerusalem Post_ `Case 4000`
+  - Theme: Prosecution files initial witness list for April 5 opening
+  - Dek (≤14w): "The initial witness list and evidentiary documents in the trial of Prime Minister Benjamin …"
+- **2021-04-06** — [Key witness takes stand for 2nd day in Netanyahu trial, claims he was threatened](https://www.timesofisrael.com/key-witness-for-prosecution-to-testify-in-netanyahu-trial-for-2nd-day/) — _Times of Israel_ `Case 4000`
+  - Theme: Yeshua (1st witness) testifies 2nd day; claims he was threatened
+  - Dek (≤14w): "Ilan Yeshua, former CEO of Walla news, continues testimony in evidentiary phase of graft …"
+- **2021-04-06** — [On day 2 of testimony, Yeshua describes effort to hide PM’s alleged quid pro quo](https://www.timesofisrael.com/on-day-2-of-testimony-yeshua-describes-effort-to-hide-pms-alleged-quid-pro-quo/) — _Times of Israel_ `Case 4000`
+  - Theme: Yeshua day 2: describes hiding alleged quid pro quo
+  - Dek (≤14w): "Former CEO of Walla news site appears in court again as evidentiary phase of …"
+- **2021-04-20** — [Netanyahu’s graft trial to pause for 2 weeks as first witness wraps up testimony](https://www.timesofisrael.com/netanyahus-graft-trial-to-pause-for-2-weeks-as-first-witness-wraps-up-testimony/) — _Times of Israel_ `Case 4000`
+  - Theme: 1st witness (Yeshua) wraps; trial pauses 2 weeks
+  - Dek (≤14w): "Judges cancel several hearings to allow defense to prepare for cross-examination of ex-Walla CEO …"
+- **2021-06-09** — [Court grants defense’s request to search phone of key witness in Netanyahu trial](https://www.timesofisrael.com/court-grants-defenses-request-to-search-phone-of-key-witness-in-netanyahu-trial/) — _Times of Israel_ `Case 4000`
+  - Theme: Court grants defense request to search key witness's phone
+  - Dek (≤14w): "Judges order that contents of relevant conversations by former Walla boss Ilan Yeshua and …"
+- **2021-10-05** — [Judge asks witness in Netanyahu trial: How can we tell when you’re lying?](https://www.timesofisrael.com/judge-asks-witness-in-netanyahu-trial-how-can-we-tell-when-youre-lying/) — _Times of Israel_ `Case 4000`
+  - Theme: Judge asks witness: how can we tell when you're lying?
+  - Dek (≤14w): "Ilan Yeshua, former CEO of the Walla news site and a key prosecution witness …"
+- **2021-10-11** — [Ilan Yeshua testimony in Benjamin Netanyahu case concludes after six months | The Jerusalem Post](https://www.jpost.com/israel-news/ilan-yeshua-testimony-in-netanyahu-case-concludes-after-six-months-681651) — _Jerusalem Post_ `Case 4000`
+  - Theme: Yeshua testimony concludes after six months / 33 sessions
+  - Dek (≤14w): "Following the end of Yeshua's testimony, the trial’s second witness, former Walla chief editor, …"
+- **2021-11-30** — [Police interrogation ‘draconian, horrific, monstrous’ - Hefetz | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/prosecution-tries-to-expel-press-for-parts-of-hefetz-cross-examination-687393) — _Jerusalem Post_ `Case 4000`
+  - Theme: Hefetz cross: prosecution tries to expel press for parts
+  - Dek (≤14w): "Netanyahu trial star witness cross-examined after prosecution fails to expel press."
+- **2021-12-01** — [Netanyahu trial witness says interrogators threatened to destroy his family](https://www.timesofisrael.com/netanyahu-trial-witness-says-interrogators-threatened-to-destroy-his-family/) — _Times of Israel_ `Case 4000`
+  - Theme: Hefetz: interrogators threatened to destroy his family
+  - Dek (≤14w): "During cross-examination, Nir Hefetz describes the 'vile' conditions of his detention that caused him …"
+- **2021-12-27** — [Ex-aide testifies Netanyahu saw newspaper publisher as his ‘true opposition’](https://www.timesofisrael.com/ex-aide-testifies-netanyahu-saw-newspaper-publisher-as-his-true-opposition/) — _Times of Israel_ `Case 2000`
+  - Theme: Hefetz: Netanyahu saw publisher as his 'true opposition'
+  - Dek (≤14w): "Nir Hefetz says at cross-examination that former premier blamed all Israeli negative coverage on …"
+- **2022-01-10** — [Ex-Netanyahu aide got standard police treatment, witness says in corruption trial](https://www.haaretz.com/israel-news/.premium-ex-netanyahu-aide-got-standard-police-treatment-witness-says-in-corruption-trial-1.10528335) — _Haaretz_ `Case 4000`
+  - Theme: Witness: ex-aide Hefetz got standard police treatment
+  - Dek (≤14w): "'Nothing was done that wasn’t done to other detainees in other cases,' says officer …"
 - **2022-03-29** — [Prosecutors ask to treat state witness in Netanyahu trial as hostile witness, relent](https://www.timesofisrael.com/prosecutors-to-cross-examine-state-witness-in-netanyahu-trial-after-inconsistencies/) — _Times of Israel_ `Case 4000`
   - Theme: Prosecutors move to treat state witness (Filber) as hostile
   - Dek (≤14w): "State will instead cross-examine key witness Shlomo Filber after raising inconsistencies in his evidence; …"
+- **2022-04-04** — [Netanyahu trial prosecutors question state witness Filber over changes in testimony](https://www.timesofisrael.com/netanyahu-prosecutors-question-state-witness-filber-over-softened-testimony/) — _Times of Israel_ `Case 4000`
+  - Theme: Prosecutors question Filber over softened testimony
+  - Dek (≤14w): "'There's something you're not saying,' prosecutor charges during cross examination of former Communications Ministry …"
+- **2022-06-01** — [Amid apparent contradictions, state witness Filber insists his testimony stands](https://www.timesofisrael.com/amid-apparent-contradictions-state-witness-filber-insists-his-testimony-stands/) — _Times of Israel_ `Case 4000`
+  - Theme: Filber insists his testimony stands amid contradictions
+  - Dek (≤14w): "'One cannot erase a situation from one's brain,' Filber says, accusing police of manipulating …"
+- **2022-07-05** — [Key witness at trial describes the Netanyahus’ incessant demands for gifts](https://www.timesofisrael.com/key-witness-describes-incessant-demands-from-netanyahus-for-gifts/) — _Times of Israel_ `Case 1000`
+  - Theme: Hadas Klein: Netanyahus' incessant demands for gifts
+  - Dek (≤14w): "Hadas Klein, aide to billionaires Arnon Milchan and James Packer, tells court about continuous …"
+- **2022-07-06** — [Milchan aide testifies Netanyahu introduced her boss to Kerry to help him get visa](https://www.timesofisrael.com/milchan-aide-testifies-netanyahu-introduced-her-boss-to-kerry-to-help-him-get-visa/) — _Times of Israel_ `Case 1000`
+  - Theme: Milchan aide: Netanyahu introduced Milchan to Kerry re visa
+  - Dek (≤14w): "Underlining alleged quid pro quo in Case 1000, Hadas Klein says ex-PM called Milchan …"
+- **2022-07-12** — [Benjamin Netanyahu trial witness: Billionaire threw her phone in pool over probe | The Jerusalem Post](https://www.jpost.com/israeli-news/benjamin-netanyahu/article-711854) — _Jerusalem Post_ `Case 1000`
+  - Theme: Witness: billionaire threw her phone in pool over probe
+  - Dek (≤14w): "Hadas Klein said billionaire tycoon James Packer was nervous about criminal probes into Netanyahu."
+- **2022-07-12** — [Key witness in trial denies Netanyahus got luxury gifts out of genuine friendship](https://www.timesofisrael.com/key-witness-in-trial-denies-netanyahus-got-luxury-gifts-out-of-genuine-friendship/) — _Times of Israel_ `Case 1000`
+  - Theme: Klein: gifts not from genuine friendship
+  - Dek (≤14w): "Hadas Klein, on first day of cross-examination, rejects claims she hid evidence by throwing …"
+- **2022-07-18** — [Netanyahu vetoed large donation by Packer to Peres Center, key witness tells court](https://www.timesofisrael.com/netanyahu-vetoed-large-donation-by-packer-to-peres-center-key-witness-tells-court/) — _Times of Israel_ `Case 1000`
+  - Theme: Klein: Netanyahu vetoed Packer donation to Peres Center
+  - Dek (≤14w): "Former PM, a longtime political rival of late Shimon Peres, 'was very angry' upon …"
+- **2022-09-12** — [Witness in graft trial says Netanyahu asked for NIS 3,000 ‘tip’ to spend in Tiberias](https://www.timesofisrael.com/key-witness-in-netanyahu-graft-trial-says-former-pm-demanded-nis-3000-for-trip/) — _Times of Israel_ `Case 1000`
+  - Theme: Witness: Netanyahu demanded NIS 3,000 'tip' for Tiberias trip
+  - Dek (≤14w): "Hadas Klein says money from boss Arnon Milchan's petty cash went to satisfy demand …"
+- **2022-10-24** — [Milchan’s driver supports previous testimony, describes luxury gifts to Netanyahus](https://www.timesofisrael.com/milchans-driver-supports-previous-testimony-describes-luxury-gifts-to-netanyahus/) — _Times of Israel_ `Case 1000`
+  - Theme: Milchan's driver corroborates luxury-gift deliveries
+  - Dek (≤14w): "Trial resumes after three week hiatus; driver Yonatan Hasson says '99%' of all high-end …"
+- **2023-06-21** — [3 ex-Netanyahu aides may face charges for allegedly harassing witness in his trial](https://www.timesofisrael.com/3-ex-netanyahu-aides-may-face-charges-for-allegedly-harassing-witness-in-his-trial/) — _Times of Israel_
+  - Theme: 3 ex-Netanyahu aides may face charges for harassing witness
+  - Dek (≤14w): "Jonatan Urich, Ofer Golan and Yisrael Einhorn to be charged, pending hearing, for allegedly …"
+- **2023-07-08** — [Key witness in Benjamin Netanyahu trial Hadas Klein threatened over testimony | The Jerusalem Post](https://www.jpost.com/israel-news/article-749322) — _Jerusalem Post_ `Case 1000`
+  - Theme: Hadas Klein threatened over her testimony
+  - Dek (≤14w): "Klein was the assistant of Milchan at the time of the alleged bribery, she …"
+- **2023-07-09** — [Benjamin Netanyahu trial: Milchan and Klein give two conflicting testimonies | The Jerusalem Post](https://www.jpost.com/israel-news/politics-and-diplomacy/article-749394) — _Jerusalem Post_ `Case 1000`
+  - Theme: Milchan and Klein give conflicting testimonies
+  - Dek (≤14w): "Two realities of the relationship between Milchan and Netanyahu were created by Klein and …"
+- **2024-04-08** — [Benjamin Netanyahu trial: State witness deal with Shlomo Filber nullified | The Jerusalem Post](https://www.jpost.com/breaking-news/article-795983) — _Jerusalem Post_ `Case 4000`
+  - Theme: Filber state-witness deal nullified
+  - Dek (≤14w): "This explosive development could change the entire nature of the media bribery and fraud …"
 
 ## Phase C — Re-examination / final
 
+- **2026-05-25** — [Netanyahu’s cross-examination ends early again for ‘security reasons’](https://www.timesofisrael.com/netanyahus-cross-examination-ends-early-again-for-security-reasons/) — _Times of Israel_
+  - Theme: Cross-examination ends early again for 'security reasons'
+  - Dek (≤14w): "Judges agree to end hearing in Case 2000 two hours early after PM's team …"
+- **2026-06-16** — [Israeli prosecutors conclude final cross-examination in Netanyahu corruption trial](https://www.jns.org/news/israel-news/israeli-prosecutors-conclude-final-cross-examination-in-netanyahu-corruption-trial) — _JNS_
+  - Theme: Prosecutors conclude final cross-examination
+  - Dek (≤14w): "The Israeli prime minister is expected to take the stand for several more days …"
 - **2026-06-23** — [Benjamin Netanyahu: Prosecuters set traps during final questioning of trial | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-900132) — _Jerusalem Post_
   - Theme: Prosecutors set traps during final questioning
   - Dek (≤14w): "Netanyahu said prosecutors had caused him to give answers that could be portrayed as …"
@@ -85,18 +205,52 @@ _Generated 2026-06-24 — 22/22 sources reachable._
 - **2023-12-25** — [Hearings in Netanyahu corruption trial to be held four days a week from February](https://www.timesofisrael.com/hearings-in-netanyahu-corruption-trial-to-be-held-four-days-a-week-from-february/) — _Times of Israel_
   - Theme: Hearings to be 4 days/week from February
   - Dek (≤14w): "In light of war, hearings were reduced from three times a week to two …"
+- **2024-07-21** — [Prosecutors rest case in Netanyahu trial; PM to kick off defense portion on Dec. 2](https://www.timesofisrael.com/prosecutors-rest-case-in-netanyahu-trial-pm-to-kick-off-defense-portion-on-dec-2/) — _Times of Israel_
+  - Theme: Prosecutors rest case; PM defense to open Dec 2
+  - Dek (≤14w): "Corruption trial, in which PM is charged of bribery, fraud and breach of trust, …"
+- **2024-12-05** — [Court rejects Netanyahu request to testify only 2 days a week in corruption trial](https://www.timesofisrael.com/with-date-set-legal-fight-shifts-to-pace-of-netanyahu-testimony-in-his-graft-trial/) — _Times of Israel_
+  - Theme: Court rejects PM request to testify only 2 days/week
+  - Dek (≤14w): "Netanyahu's lawyers claim request for more court hours is unfairly creating difficulties for the …"
 - **2025-08-12** — [Court says Netanyahu to testify 3 times per week from November to speed up trial](https://www.timesofisrael.com/court-says-netanyahu-to-testify-3-times-per-week-from-november-to-speed-up-trial/) — _Times of Israel_
   - Theme: Court orders 3 sessions/week from November
   - Dek (≤14w): "Judges also weigh holding future hearings at Beit Shemesh courthouse instead of Tel Aviv, …"
+- **2025-10-29** — [Judges say Netanyahu will no longer have to face the press at court hearings](https://www.timesofisrael.com/judges-say-netanyahu-will-no-longer-have-to-face-the-press-at-court-hearings/) — _Times of Israel_
+  - Theme: Judges: PM no longer must face press at hearings
+  - Dek (≤14w): "PM tells court he's 'in the most difficult position in the world,' cannot attend …"
 
 ## Cancellations / delays
 
+- **2025-06-27** — [Court twice rejects PM’s requests to delay trial testimony; lawyer cited diplomatic developments](https://www.timesofisrael.com/court-rejects-pms-request-to-delay-trial-testimony-lawyer-cited-diplomatic-developments/) — _Times of Israel_
+  - Theme: Court twice rejects PM delay requests (diplomatic dev.)
+  - Dek (≤14w): "After judge says defense didn't present clear justification for postponing hearings, Netanyahu refiles request …"
+- **2025-11-03** — [Netanyahu trial hearing to be cut by 2 hours due to ‘urgent diplomatic meeting’](https://www.timesofisrael.com/netanyahu-trial-hearing-to-be-cut-by-2-hours-due-to-urgent-diplomatic-meeting/) — _Times of Israel_
+  - Theme: Hearing cut by 2 hours for 'urgent diplomatic meeting'
+  - Dek (≤14w): "Prime minister often asks to truncate the hearings, which occur four times a week, …"
+- **2025-11-17** — [Netanyahu testimony in corruption trial on Wednesday canceled for ‘security reason’](https://www.timesofisrael.com/netanyahu-testimony-in-corruption-trial-on-wednesday-canceled-for-security-reason/) — _Times of Israel_
+  - Theme: Testimony Wednesday canceled for 'security reason'
+  - Dek (≤14w): "Judge nixes hearing after PM's lawyers hand over envelope detailing reason for request; prosecution …"
+- **2026-04-09** — [Benjamin Netanyahu trial to resume after war-related court pause | The Jerusalem Post](https://www.jpost.com/israel-news/benjamin-netanyahu/article-892469) — _Jerusalem Post_
+  - Theme: Trial to resume after war-related court pause
+  - Dek (≤14w): "Netanyahu’s corruption trial will resume Sunday after weeks of war-related court disruptions, returning to …"
 - **2026-04-27** — [Netanyahu corruption trial testimony canceled, extending two-month pause](https://www.haaretz.com/israel-news/israel-politics/2026-04-27/ty-article/.premium/netanyahu-corruption-trial-testimony-canceled-extending-two-month-pause/0000019d-cd6a-d95a-afbd-ed6a8ca10000) — _Haaretz_
   - Theme: Testimony canceled, extending two-month pause
   - Dek (≤14w): "Netanyahu Is Nearing the End of Cross-examination in Case 4000 as Court Hearings Have …"
+- **2026-04-28** — [Benjamin Netanyahu criminal trial returns after two months, testimony hearing cut short | The Jerusalem Post](https://www.jpost.com/israel-news/article-894423) — _Jerusalem Post_
+  - Theme: Trial returns after two months; hearing cut short
+  - Dek (≤14w): "Questioning continued by prosecutor Yehudit Tirosh on Case 4000, the Bezeq-Walla affair, where Netanyahu …"
+- **2026-05-05** — [For second day in a row • Judges agree to delay Netanyahu trial hearing over 'security schedule'](https://www.haaretz.com/israel-news/israel-politics/2026-05-05/ty-article/.premium/judges-agree-to-move-netanyahu-trial-hearing-over-security-schedule/0000019d-f772-df01-a3dd-f7fb11380000) — _Haaretz_
+  - Theme: Judges agree to delay hearing over 'security schedule'
+  - Dek (≤14w): "Netanyahu's testimony in his graft trial was also canceled last week, after the Iran …"
 
 ## Context
 
+- **2025-06-26** — [Secret deal to end Netanyahu trial fell apart over PM’s refusal to step down — source](https://www.timesofisrael.com/secret-deal-to-end-netanyahu-trial-fell-apart-over-pms-refusal-to-step-down-source/) — _Times of Israel_
+  - Theme: Secret deal to end trial fell apart over PM stepping down
+  - Dek (≤14w): "In meeting with ex-Supreme Court chief Aharon Barak, premier's lawyer suggested accepting conviction on …"
+- **2025-09-08** — [Netanyahu corruption trial resumes with prosecution cross-examination after month-long recess](https://www.ynetnews.com/article/b10093cocgx) — _Ynet_
+  - Theme: Trial resumes with prosecution cross after month recess
+  - By: Netael Bandel
+  - Dek (≤14w): "Judges order the trial to run four days a week, dedicating almost all of …"
 - **2025-11-30** — [Netanyahu makes a high-stakes bid to end his corruption trial](https://www.npr.org/2025/11/30/nx-s1-5626099/netanyahu-makes-a-high-stakes-bid-to-end-his-corruption-trial) — _NPR_
   - Theme: High-stakes bid to end the trial
   - By: Miles Parks
@@ -106,7 +260,7 @@ _Generated 2026-06-24 — 22/22 sources reachable._
 
 ## Provenance
 
-- Seeds: `harvester/seeds.json` (22 entries)
-- Reachable at harvest time: 22/22
+- Seeds: `harvester/seeds.json` (74 entries)
+- Reachable at harvest time: 71/74
 - Machine manifest: `data/manifest.json`
 - Method: metadata-only fetch (OG/JSON-LD/standard tags); no article body stored.
